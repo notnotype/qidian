@@ -79,6 +79,7 @@ class FontIconMappingTable:
         self.ttf_to_xml()
         xml = etree.parse(self.xml_filename)
         mappingTable = {k: self.table[v] for k, v in zip(xml.xpath("//map/@code"), xml.xpath("//map/@name"))}
+        #  删除ttf和xml文件
         os.remove(self.ttf_filename)
         logger.debug("ttf delete success!")
         os.remove(self.xml_filename)
