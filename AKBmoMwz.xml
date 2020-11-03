@@ -1,0 +1,2588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.16">
+
+  <GlyphOrder>
+    <!-- The 'id' attribute is only for humans; it is ignored when parsed. -->
+    <GlyphID id="0" name=".notdef"/>
+    <GlyphID id="1" name="period"/>
+    <GlyphID id="2" name="zero"/>
+    <GlyphID id="3" name="one"/>
+    <GlyphID id="4" name="two"/>
+    <GlyphID id="5" name="three"/>
+    <GlyphID id="6" name="four"/>
+    <GlyphID id="7" name="five"/>
+    <GlyphID id="8" name="six"/>
+    <GlyphID id="9" name="seven"/>
+    <GlyphID id="10" name="eight"/>
+    <GlyphID id="11" name="nine"/>
+  </GlyphOrder>
+
+  <head>
+    <!-- Most of this table will be recalculated by the compiler -->
+    <tableVersion value="1.0"/>
+    <fontRevision value="2.98"/>
+    <checkSumAdjustment value="0x9894cd2"/>
+    <magicNumber value="0x5f0f3cf5"/>
+    <flags value="00001000 00011011"/>
+    <unitsPerEm value="2048"/>
+    <created value="Mon Aug  6 13:54:50 1990"/>
+    <modified value="Thu Feb  1 21:46:43 2018"/>
+    <xMin value="26"/>
+    <yMin value="-26"/>
+    <xMax value="1280"/>
+    <yMax value="1472"/>
+    <macStyle value="00000000 00000000"/>
+    <lowestRecPPEM value="9"/>
+    <fontDirectionHint value="1"/>
+    <indexToLocFormat value="0"/>
+    <glyphDataFormat value="0"/>
+  </head>
+
+  <hhea>
+    <tableVersion value="0x00010000"/>
+    <ascent value="1854"/>
+    <descent value="-434"/>
+    <lineGap value="67"/>
+    <advanceWidthMax value="1536"/>
+    <minLeftSideBearing value="26"/>
+    <minRightSideBearing value="82"/>
+    <xMaxExtent value="1280"/>
+    <caretSlopeRise value="1"/>
+    <caretSlopeRun value="0"/>
+    <caretOffset value="0"/>
+    <reserved0 value="0"/>
+    <reserved1 value="0"/>
+    <reserved2 value="0"/>
+    <reserved3 value="0"/>
+    <metricDataFormat value="0"/>
+    <numberOfHMetrics value="3"/>
+  </hhea>
+
+  <maxp>
+    <!-- Most of this table will be recalculated by the compiler -->
+    <tableVersion value="0x10000"/>
+    <numGlyphs value="12"/>
+    <maxPoints value="49"/>
+    <maxContours value="3"/>
+    <maxCompositePoints value="0"/>
+    <maxCompositeContours value="0"/>
+    <maxZones value="2"/>
+    <maxTwilightPoints value="16"/>
+    <maxStorage value="47"/>
+    <maxFunctionDefs value="86"/>
+    <maxInstructionDefs value="0"/>
+    <maxStackElements value="1037"/>
+    <maxSizeOfInstructions value="2815"/>
+    <maxComponentElements value="0"/>
+    <maxComponentDepth value="0"/>
+  </maxp>
+
+  <OS_2>
+    <!-- The fields 'usFirstCharIndex' and 'usLastCharIndex'
+         will be recalculated by the compiler -->
+    <version value="4"/>
+    <xAvgCharWidth value="1124"/>
+    <usWeightClass value="400"/>
+    <usWidthClass value="5"/>
+    <fsType value="00000000 00000000"/>
+    <ySubscriptXSize value="1434"/>
+    <ySubscriptYSize value="1331"/>
+    <ySubscriptXOffset value="0"/>
+    <ySubscriptYOffset value="283"/>
+    <ySuperscriptXSize value="1434"/>
+    <ySuperscriptYSize value="1331"/>
+    <ySuperscriptXOffset value="0"/>
+    <ySuperscriptYOffset value="977"/>
+    <yStrikeoutSize value="102"/>
+    <yStrikeoutPosition value="530"/>
+    <sFamilyClass value="2053"/>
+    <panose>
+      <bFamilyType value="2"/>
+      <bSerifStyle value="11"/>
+      <bWeight value="6"/>
+      <bProportion value="4"/>
+      <bContrast value="2"/>
+      <bStrokeVariation value="2"/>
+      <bArmStyle value="2"/>
+      <bLetterForm value="2"/>
+      <bMidline value="2"/>
+      <bXHeight value="4"/>
+    </panose>
+    <ulUnicodeRange1 value="00000000 00000000 01111010 10000111"/>
+    <ulUnicodeRange2 value="00010000 00000000 00000000 00000000"/>
+    <ulUnicodeRange3 value="00000000 00000000 00000000 00001000"/>
+    <ulUnicodeRange4 value="00000000 00000000 00000000 00000000"/>
+    <achVendID value="Mono"/>
+    <fsSelection value="00000000 01000000"/>
+    <usFirstCharIndex value="34994"/>
+    <usLastCharIndex value="35005"/>
+    <sTypoAscender value="1491"/>
+    <sTypoDescender value="-431"/>
+    <sTypoLineGap value="307"/>
+    <usWinAscent value="1854"/>
+    <usWinDescent value="434"/>
+    <ulCodePageRange1 value="01000000 00000000 00000001 11111111"/>
+    <ulCodePageRange2 value="11111111 11111111 00000000 00000000"/>
+    <sxHeight value="0"/>
+    <sCapHeight value="0"/>
+    <usDefaultChar value="0"/>
+    <usBreakChar value="32"/>
+    <usMaxContext value="0"/>
+  </OS_2>
+
+  <hmtx>
+    <mtx name=".notdef" width="1536" lsb="256"/>
+    <mtx name="eight" width="1139" lsb="83"/>
+    <mtx name="five" width="1139" lsb="85"/>
+    <mtx name="four" width="1139" lsb="26"/>
+    <mtx name="nine" width="1139" lsb="85"/>
+    <mtx name="one" width="1139" lsb="223"/>
+    <mtx name="period" width="569" lsb="186"/>
+    <mtx name="seven" width="1139" lsb="97"/>
+    <mtx name="six" width="1139" lsb="77"/>
+    <mtx name="three" width="1139" lsb="86"/>
+    <mtx name="two" width="1139" lsb="60"/>
+    <mtx name="zero" width="1139" lsb="85"/>
+  </hmtx>
+
+  <cmap>
+    <tableVersion version="0"/>
+    <cmap_format_4 platformID="0" platEncID="3" language="0">
+    </cmap_format_4>
+    <cmap_format_0 platformID="1" platEncID="0" language="0">
+    </cmap_format_0>
+    <cmap_format_4 platformID="3" platEncID="1" language="0">
+    </cmap_format_4>
+    <cmap_format_12 platformID="3" platEncID="10" format="12" reserved="0" length="136" language="0" nGroups="10">
+      <map code="0x188b2" name="seven"/><!-- TANGUT COMPONENT-179 -->
+      <map code="0x188b4" name="six"/><!-- TANGUT COMPONENT-181 -->
+      <map code="0x188b5" name="three"/><!-- TANGUT COMPONENT-182 -->
+      <map code="0x188b6" name="zero"/><!-- TANGUT COMPONENT-183 -->
+      <map code="0x188b7" name="period"/><!-- TANGUT COMPONENT-184 -->
+      <map code="0x188b8" name="eight"/><!-- TANGUT COMPONENT-185 -->
+      <map code="0x188b9" name="four"/><!-- TANGUT COMPONENT-186 -->
+      <map code="0x188ba" name="five"/><!-- TANGUT COMPONENT-187 -->
+      <map code="0x188bb" name="one"/><!-- TANGUT COMPONENT-188 -->
+      <map code="0x188bc" name="nine"/><!-- TANGUT COMPONENT-189 -->
+      <map code="0x188bd" name="two"/><!-- TANGUT COMPONENT-190 -->
+    </cmap_format_12>
+  </cmap>
+
+  <fpgm>
+    <assembly>
+      NPUSHB[ ]	/* 67 values pushed */
+      85 84 65 64 63 62 61 60 59 58 57 56 55 53 52 51 50 49 48 47 46 45 44 43 42
+      41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17
+      16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+      FDEF[ ]	/* FunctionDefinition */
+        RCVT[ ]	/* ReadCVT */
+        SWAP[ ]	/* SwapTopStack */
+        GC[0]	/* GetCoordOnPVector */
+        ADD[ ]	/* Add */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        38
+        ADD[ ]	/* Add */
+        PUSHB[ ]	/* 1 value pushed */
+        4
+        MINDEX[ ]	/* MoveXToTopStack */
+        SWAP[ ]	/* SwapTopStack */
+        SCFS[ ]	/* SetCoordFromStackFP */
+        SCFS[ ]	/* SetCoordFromStackFP */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        RCVT[ ]	/* ReadCVT */
+        SWAP[ ]	/* SwapTopStack */
+        GC[0]	/* GetCoordOnPVector */
+        SWAP[ ]	/* SwapTopStack */
+        SUB[ ]	/* Subtract */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        38
+        SUB[ ]	/* Subtract */
+        PUSHB[ ]	/* 1 value pushed */
+        4
+        MINDEX[ ]	/* MoveXToTopStack */
+        SWAP[ ]	/* SwapTopStack */
+        SCFS[ ]	/* SetCoordFromStackFP */
+        SCFS[ ]	/* SetCoordFromStackFP */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        RCVT[ ]	/* ReadCVT */
+        SWAP[ ]	/* SwapTopStack */
+        GC[0]	/* GetCoordOnPVector */
+        ADD[ ]	/* Add */
+        PUSHB[ ]	/* 1 value pushed */
+        32
+        SUB[ ]	/* Subtract */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        70
+        ADD[ ]	/* Add */
+        PUSHB[ ]	/* 1 value pushed */
+        4
+        MINDEX[ ]	/* MoveXToTopStack */
+        SWAP[ ]	/* SwapTopStack */
+        SCFS[ ]	/* SetCoordFromStackFP */
+        SCFS[ ]	/* SetCoordFromStackFP */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        RCVT[ ]	/* ReadCVT */
+        SWAP[ ]	/* SwapTopStack */
+        GC[0]	/* GetCoordOnPVector */
+        SWAP[ ]	/* SwapTopStack */
+        SUB[ ]	/* Subtract */
+        PUSHB[ ]	/* 1 value pushed */
+        32
+        ADD[ ]	/* Add */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        38
+        SUB[ ]	/* Subtract */
+        PUSHB[ ]	/* 1 value pushed */
+        32
+        SUB[ ]	/* Subtract */
+        PUSHB[ ]	/* 1 value pushed */
+        4
+        MINDEX[ ]	/* MoveXToTopStack */
+        SWAP[ ]	/* SwapTopStack */
+        SCFS[ ]	/* SetCoordFromStackFP */
+        SCFS[ ]	/* SetCoordFromStackFP */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        RCVT[ ]	/* ReadCVT */
+        SWAP[ ]	/* SwapTopStack */
+        GC[0]	/* GetCoordOnPVector */
+        ADD[ ]	/* Add */
+        PUSHB[ ]	/* 1 value pushed */
+        64
+        SUB[ ]	/* Subtract */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        102
+        ADD[ ]	/* Add */
+        PUSHB[ ]	/* 1 value pushed */
+        4
+        MINDEX[ ]	/* MoveXToTopStack */
+        SWAP[ ]	/* SwapTopStack */
+        SCFS[ ]	/* SetCoordFromStackFP */
+        SCFS[ ]	/* SetCoordFromStackFP */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        RCVT[ ]	/* ReadCVT */
+        SWAP[ ]	/* SwapTopStack */
+        GC[0]	/* GetCoordOnPVector */
+        SWAP[ ]	/* SwapTopStack */
+        SUB[ ]	/* Subtract */
+        PUSHB[ ]	/* 1 value pushed */
+        64
+        ADD[ ]	/* Add */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        38
+        SUB[ ]	/* Subtract */
+        PUSHB[ ]	/* 1 value pushed */
+        64
+        SUB[ ]	/* Subtract */
+        PUSHB[ ]	/* 1 value pushed */
+        4
+        MINDEX[ ]	/* MoveXToTopStack */
+        SWAP[ ]	/* SwapTopStack */
+        SCFS[ ]	/* SetCoordFromStackFP */
+        SCFS[ ]	/* SetCoordFromStackFP */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        SVTCA[1]	/* SetFPVectorToAxis */
+        SRP0[ ]	/* SetRefPoint0 */
+        DUP[ ]	/* DuplicateTopStack */
+        ALIGNRP[ ]	/* AlignRelativePt */
+        SVTCA[0]	/* SetFPVectorToAxis */
+        ALIGNRP[ ]	/* AlignRelativePt */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        DUP[ ]	/* DuplicateTopStack */
+        RCVT[ ]	/* ReadCVT */
+        SWAP[ ]	/* SwapTopStack */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        205
+        WCVTP[ ]	/* WriteCVTInPixels */
+        SWAP[ ]	/* SwapTopStack */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHW[ ]	/* 1 value pushed */
+        346
+        LTEQ[ ]	/* LessThenOrEqual */
+        IF[ ]	/* If */
+          SWAP[ ]	/* SwapTopStack */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSHB[ ]	/* 1 value pushed */
+          141
+          WCVTP[ ]	/* WriteCVTInPixels */
+          SWAP[ ]	/* SwapTopStack */
+        EIF[ ]	/* EndIf */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        237
+        LTEQ[ ]	/* LessThenOrEqual */
+        IF[ ]	/* If */
+          SWAP[ ]	/* SwapTopStack */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSHB[ ]	/* 1 value pushed */
+          77
+          WCVTP[ ]	/* WriteCVTInPixels */
+          SWAP[ ]	/* SwapTopStack */
+        EIF[ ]	/* EndIf */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        144
+        LTEQ[ ]	/* LessThenOrEqual */
+        IF[ ]	/* If */
+          SWAP[ ]	/* SwapTopStack */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSHB[ ]	/* 1 value pushed */
+          13
+          WCVTP[ ]	/* WriteCVTInPixels */
+          SWAP[ ]	/* SwapTopStack */
+        EIF[ ]	/* EndIf */
+        POP[ ]	/* PopTopStack */
+        POP[ ]	/* PopTopStack */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        DUP[ ]	/* DuplicateTopStack */
+        DUP[ ]	/* DuplicateTopStack */
+        RCVT[ ]	/* ReadCVT */
+        RTG[ ]	/* RoundToGrid */
+        ROUND[00]	/* Round */
+        WCVTP[ ]	/* WriteCVTInPixels */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        1
+        ADD[ ]	/* Add */
+        DUP[ ]	/* DuplicateTopStack */
+        RCVT[ ]	/* ReadCVT */
+        PUSHB[ ]	/* 1 value pushed */
+        70
+        SROUND[ ]	/* SuperRound */
+        ROUND[00]	/* Round */
+        ROLL[ ]	/* RollTopThreeStack */
+        RCVT[ ]	/* ReadCVT */
+        ADD[ ]	/* Add */
+        WCVTP[ ]	/* WriteCVTInPixels */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        SVTCA[1]	/* SetFPVectorToAxis */
+        PUSHB[ ]	/* 2 values pushed */
+        11 10
+        RS[ ]	/* ReadStore */
+        SWAP[ ]	/* SwapTopStack */
+        RS[ ]	/* ReadStore */
+        NEG[ ]	/* Negate */
+        SPVFS[ ]	/* SetPVectorFromStack */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        SVTCA[0]	/* SetFPVectorToAxis */
+        PUSHB[ ]	/* 2 values pushed */
+        10 11
+        RS[ ]	/* ReadStore */
+        SWAP[ ]	/* SwapTopStack */
+        RS[ ]	/* ReadStore */
+        SFVFS[ ]	/* SetFVectorFromStack */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        SVTCA[0]	/* SetFPVectorToAxis */
+        PUSHB[ ]	/* 1 value pushed */
+        23
+        SWAP[ ]	/* SwapTopStack */
+        WCVTF[ ]	/* WriteCVTInFUnits */
+        PUSHB[ ]	/* 2 values pushed */
+        1 23
+        MIAP[0]	/* MoveIndirectAbsPt */
+        SVTCA[1]	/* SetFPVectorToAxis */
+        PUSHB[ ]	/* 1 value pushed */
+        23
+        SWAP[ ]	/* SwapTopStack */
+        WCVTF[ ]	/* WriteCVTInFUnits */
+        PUSHB[ ]	/* 2 values pushed */
+        2 23
+        RCVT[ ]	/* ReadCVT */
+        MSIRP[0]	/* MoveStackIndirRelPt */
+        PUSHB[ ]	/* 2 values pushed */
+        2 0
+        SFVTL[0]	/* SetFVectorToLine */
+        GFV[ ]	/* GetFVector */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        RCVT[ ]	/* ReadCVT */
+        PUSHB[ ]	/* 1 value pushed */
+        26
+        SWAP[ ]	/* SwapTopStack */
+        WCVTP[ ]	/* WriteCVTInPixels */
+        RCVT[ ]	/* ReadCVT */
+        PUSHB[ ]	/* 1 value pushed */
+        25
+        SWAP[ ]	/* SwapTopStack */
+        WCVTP[ ]	/* WriteCVTInPixels */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        DUP[ ]	/* DuplicateTopStack */
+        RCVT[ ]	/* ReadCVT */
+        PUSHB[ ]	/* 1 value pushed */
+        3
+        CINDEX[ ]	/* CopyXToTopStack */
+        RCVT[ ]	/* ReadCVT */
+        SUB[ ]	/* Subtract */
+        ABS[ ]	/* Absolute */
+        PUSHB[ ]	/* 1 value pushed */
+        80
+        LTEQ[ ]	/* LessThenOrEqual */
+        IF[ ]	/* If */
+          RCVT[ ]	/* ReadCVT */
+          WCVTP[ ]	/* WriteCVTInPixels */
+        ELSE[ ]	/* Else */
+          POP[ ]	/* PopTopStack */
+          POP[ ]	/* PopTopStack */
+        EIF[ ]	/* EndIf */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        PUSHB[ ]	/* 1 value pushed */
+        1
+        RS[ ]	/* ReadStore */
+        MUL[ ]	/* Multiply */
+        SWAP[ ]	/* SwapTopStack */
+        DIV[ ]	/* Divide */
+        PUSHB[ ]	/* 1 value pushed */
+        0
+        SWAP[ ]	/* SwapTopStack */
+        WS[ ]	/* WriteStore */
+        PUSHB[ ]	/* 1 value pushed */
+        15
+        CALL[ ]	/* CallFunction */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        DUP[ ]	/* DuplicateTopStack */
+        RCVT[ ]	/* ReadCVT */
+        PUSHB[ ]	/* 1 value pushed */
+        0
+        RS[ ]	/* ReadStore */
+        ADD[ ]	/* Add */
+        WCVTP[ ]	/* WriteCVTInPixels */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        SVTCA[1]	/* SetFPVectorToAxis */
+        PUSHB[ ]	/* 1 value pushed */
+        6
+        RS[ ]	/* ReadStore */
+        PUSHB[ ]	/* 1 value pushed */
+        7
+        RS[ ]	/* ReadStore */
+        NEG[ ]	/* Negate */
+        SPVFS[ ]	/* SetPVectorFromStack */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        DUP[ ]	/* DuplicateTopStack */
+        ROUND[01]	/* Round */
+        PUSHB[ ]	/* 1 value pushed */
+        64
+        SUB[ ]	/* Subtract */
+        PUSHB[ ]	/* 1 value pushed */
+        0
+        MAX[ ]	/* Maximum */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHB[ ]	/* 2 values pushed */
+        44 192
+        ROLL[ ]	/* RollTopThreeStack */
+        MIN[ ]	/* Minimum */
+        PUSHW[ ]	/* 1 value pushed */
+        4096
+        DIV[ ]	/* Divide */
+        ADD[ ]	/* Add */
+        CALL[ ]	/* CallFunction */
+        GPV[ ]	/* GetPVector */
+        ABS[ ]	/* Absolute */
+        SWAP[ ]	/* SwapTopStack */
+        ABS[ ]	/* Absolute */
+        SUB[ ]	/* Subtract */
+        NOT[ ]	/* LogicalNot */
+        IF[ ]	/* If */
+          PUSHB[ ]	/* 1 value pushed */
+          3
+          SUB[ ]	/* Subtract */
+        EIF[ ]	/* EndIf */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        RCVT[ ]	/* ReadCVT */
+        PUSHB[ ]	/* 1 value pushed */
+        17
+        CALL[ ]	/* CallFunction */
+        PUSHB[ ]	/* 1 value pushed */
+        23
+        SWAP[ ]	/* SwapTopStack */
+        WCVTP[ ]	/* WriteCVTInPixels */
+        PUSHB[ ]	/* 1 value pushed */
+        23
+        ROFF[ ]	/* RoundOff */
+        MIRP[00100]	/* MoveIndirectRelPt */
+        RTG[ ]	/* RoundToGrid */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        RCVT[ ]	/* ReadCVT */
+        PUSHB[ ]	/* 1 value pushed */
+        17
+        CALL[ ]	/* CallFunction */
+        PUSHB[ ]	/* 1 value pushed */
+        23
+        SWAP[ ]	/* SwapTopStack */
+        WCVTP[ ]	/* WriteCVTInPixels */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        PUSHB[ ]	/* 1 value pushed */
+        18
+        RS[ ]	/* ReadStore */
+        IF[ ]	/* If */
+          SDPVTL[1]	/* SetDualPVectorToLine */
+          RCVT[ ]	/* ReadCVT */
+          PUSHB[ ]	/* 1 value pushed */
+          17
+          CALL[ ]	/* CallFunction */
+          PUSHB[ ]	/* 1 value pushed */
+          23
+          SWAP[ ]	/* SwapTopStack */
+          WCVTP[ ]	/* WriteCVTInPixels */
+          PUSHB[ ]	/* 1 value pushed */
+          23
+          ROFF[ ]	/* RoundOff */
+          MIRP[00100]	/* MoveIndirectRelPt */
+        ELSE[ ]	/* Else */
+          SPVTCA[1]	/* SetPVectorToAxis */
+          ROLL[ ]	/* RollTopThreeStack */
+          RCVT[ ]	/* ReadCVT */
+          RTG[ ]	/* RoundToGrid */
+          ROUND[01]	/* Round */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSHB[ ]	/* 1 value pushed */
+          23
+          SWAP[ ]	/* SwapTopStack */
+          WCVTP[ ]	/* WriteCVTInPixels */
+          ROLL[ ]	/* RollTopThreeStack */
+          ROLL[ ]	/* RollTopThreeStack */
+          SDPVTL[1]	/* SetDualPVectorToLine */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSHB[ ]	/* 1 value pushed */
+          160
+          LTEQ[ ]	/* LessThenOrEqual */
+          IF[ ]	/* If */
+            PUSHB[ ]	/* 1 value pushed */
+            17
+            CALL[ ]	/* CallFunction */
+            PUSHB[ ]	/* 1 value pushed */
+            23
+            SWAP[ ]	/* SwapTopStack */
+            WCVTP[ ]	/* WriteCVTInPixels */
+            PUSHB[ ]	/* 1 value pushed */
+            23
+            ROFF[ ]	/* RoundOff */
+            MIRP[00100]	/* MoveIndirectRelPt */
+          ELSE[ ]	/* Else */
+            POP[ ]	/* PopTopStack */
+            PUSHB[ ]	/* 1 value pushed */
+            23
+            ROFF[ ]	/* RoundOff */
+            MIRP[00100]	/* MoveIndirectRelPt */
+          EIF[ ]	/* EndIf */
+        EIF[ ]	/* EndIf */
+        RTG[ ]	/* RoundToGrid */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        PUSHB[ ]	/* 1 value pushed */
+        2
+        CINDEX[ ]	/* CopyXToTopStack */
+        GC[0]	/* GetCoordOnPVector */
+        ADD[ ]	/* Add */
+        ROLL[ ]	/* RollTopThreeStack */
+        GC[0]	/* GetCoordOnPVector */
+        PUSHB[ ]	/* 1 value pushed */
+        64
+        SUB[ ]	/* Subtract */
+        MIN[ ]	/* Minimum */
+        SCFS[ ]	/* SetCoordFromStackFP */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        MPPEM[ ]	/* MeasurePixelPerEm */
+        GTEQ[ ]	/* GreaterThanOrEqual */
+        DUP[ ]	/* DuplicateTopStack */
+        NOT[ ]	/* LogicalNot */
+        IF[ ]	/* If */
+          PUSHB[ ]	/* 1 value pushed */
+          2
+          SCANCTRL[ ]	/* ScanConversionControl */
+        EIF[ ]	/* EndIf */
+        IF[ ]	/* If */
+          PUSHB[ ]	/* 1 value pushed */
+          1
+          SCANCTRL[ ]	/* ScanConversionControl */
+        EIF[ ]	/* EndIf */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        3
+        CINDEX[ ]	/* CopyXToTopStack */
+        RCVT[ ]	/* ReadCVT */
+        PUSHB[ ]	/* 1 value pushed */
+        25
+        SWAP[ ]	/* SwapTopStack */
+        WCVTP[ ]	/* WriteCVTInPixels */
+        RCVT[ ]	/* ReadCVT */
+        PUSHB[ ]	/* 1 value pushed */
+        26
+        SWAP[ ]	/* SwapTopStack */
+        WCVTP[ ]	/* WriteCVTInPixels */
+        RCVT[ ]	/* ReadCVT */
+        NEG[ ]	/* Negate */
+        SWAP[ ]	/* SwapTopStack */
+        RCVT[ ]	/* ReadCVT */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        3
+        CINDEX[ ]	/* CopyXToTopStack */
+        ADD[ ]	/* Add */
+        ROUND[10]	/* Round */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        9
+        SWAP[ ]	/* SwapTopStack */
+        WS[ ]	/* WriteStore */
+        SWAP[ ]	/* SwapTopStack */
+        ROUND[00]	/* Round */
+        ROLL[ ]	/* RollTopThreeStack */
+        ROUND[10]	/* Round */
+        ADD[ ]	/* Add */
+        SUB[ ]	/* Subtract */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        26
+        ROLL[ ]	/* RollTopThreeStack */
+        PUSHB[ ]	/* 1 value pushed */
+        0
+        GT[ ]	/* GreaterThan */
+        JROF[ ]	/* JumpRelativeOnFalse */
+        POP[ ]	/* PopTopStack */
+        PUSHB[ ]	/* 3 values pushed */
+        26 26 64
+        PUSHW[ ]	/* 2 values pushed */
+        -32 26
+        RCVT[ ]	/* ReadCVT */
+        DUP[ ]	/* DuplicateTopStack */
+        ROLL[ ]	/* RollTopThreeStack */
+        EQ[ ]	/* Equal */
+        IF[ ]	/* If */
+          SWAP[ ]	/* SwapTopStack */
+          POP[ ]	/* PopTopStack */
+          PUSHB[ ]	/* 1 value pushed */
+          63
+        ELSE[ ]	/* Else */
+          SWAP[ ]	/* SwapTopStack */
+        EIF[ ]	/* EndIf */
+        SUB[ ]	/* Subtract */
+        WCVTP[ ]	/* WriteCVTInPixels */
+        JMPR[ ]	/* Jump */
+        PUSHB[ ]	/* 2 values pushed */
+        20 0
+        ROLL[ ]	/* RollTopThreeStack */
+        GT[ ]	/* GreaterThan */
+        JROF[ ]	/* JumpRelativeOnFalse */
+        PUSHB[ ]	/* 4 values pushed */
+        25 64 32 25
+        RCVT[ ]	/* ReadCVT */
+        DUP[ ]	/* DuplicateTopStack */
+        ROLL[ ]	/* RollTopThreeStack */
+        EQ[ ]	/* Equal */
+        IF[ ]	/* If */
+          SWAP[ ]	/* SwapTopStack */
+          POP[ ]	/* PopTopStack */
+          PUSHB[ ]	/* 1 value pushed */
+          63
+        ELSE[ ]	/* Else */
+          SWAP[ ]	/* SwapTopStack */
+        EIF[ ]	/* EndIf */
+        SUB[ ]	/* Subtract */
+        WCVTP[ ]	/* WriteCVTInPixels */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        PUSHB[ ]	/* 2 values pushed */
+        16 17
+        RS[ ]	/* ReadStore */
+        SWAP[ ]	/* SwapTopStack */
+        RS[ ]	/* ReadStore */
+        SFVFS[ ]	/* SetFVectorFromStack */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        PUSHB[ ]	/* 2 values pushed */
+        14 15
+        RS[ ]	/* ReadStore */
+        SWAP[ ]	/* SwapTopStack */
+        RS[ ]	/* ReadStore */
+        SFVFS[ ]	/* SetFVectorFromStack */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        PUSHB[ ]	/* 2 values pushed */
+        12 13
+        RS[ ]	/* ReadStore */
+        SWAP[ ]	/* SwapTopStack */
+        RS[ ]	/* ReadStore */
+        SFVFS[ ]	/* SetFVectorFromStack */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        PUSHB[ ]	/* 2 values pushed */
+        12 13
+        RS[ ]	/* ReadStore */
+        SWAP[ ]	/* SwapTopStack */
+        RS[ ]	/* ReadStore */
+        NEG[ ]	/* Negate */
+        SFVFS[ ]	/* SetFVectorFromStack */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        PUSHB[ ]	/* 2 values pushed */
+        14 15
+        RS[ ]	/* ReadStore */
+        SWAP[ ]	/* SwapTopStack */
+        RS[ ]	/* ReadStore */
+        NEG[ ]	/* Negate */
+        SFVFS[ ]	/* SetFVectorFromStack */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        PUSHB[ ]	/* 2 values pushed */
+        16 17
+        RS[ ]	/* ReadStore */
+        SWAP[ ]	/* SwapTopStack */
+        RS[ ]	/* ReadStore */
+        NEG[ ]	/* Negate */
+        SFVFS[ ]	/* SetFVectorFromStack */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        MPPEM[ ]	/* MeasurePixelPerEm */
+        GT[ ]	/* GreaterThan */
+        IF[ ]	/* If */
+          RCVT[ ]	/* ReadCVT */
+          WCVTP[ ]	/* WriteCVTInPixels */
+        ELSE[ ]	/* Else */
+          POP[ ]	/* PopTopStack */
+          POP[ ]	/* PopTopStack */
+        EIF[ ]	/* EndIf */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        SVTCA[1]	/* SetFPVectorToAxis */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        3
+        CINDEX[ ]	/* CopyXToTopStack */
+        SWAP[ ]	/* SwapTopStack */
+        MD[0]	/* MeasureDistance */
+        PUSHB[ ]	/* 1 value pushed */
+        64
+        ADD[ ]	/* Add */
+        PUSHB[ ]	/* 1 value pushed */
+        32
+        MUL[ ]	/* Multiply */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        0
+        GT[ ]	/* GreaterThan */
+        IF[ ]	/* If */
+          SWAP[ ]	/* SwapTopStack */
+          PUSHB[ ]	/* 1 value pushed */
+          2
+          CINDEX[ ]	/* CopyXToTopStack */
+          SHPIX[ ]	/* ShiftZoneByPixel */
+          SWAP[ ]	/* SwapTopStack */
+          PUSHB[ ]	/* 1 value pushed */
+          2
+          CINDEX[ ]	/* CopyXToTopStack */
+          NEG[ ]	/* Negate */
+          SHPIX[ ]	/* ShiftZoneByPixel */
+          SVTCA[0]	/* SetFPVectorToAxis */
+          ROLL[ ]	/* RollTopThreeStack */
+          MUL[ ]	/* Multiply */
+          SHPIX[ ]	/* ShiftZoneByPixel */
+        ELSE[ ]	/* Else */
+          POP[ ]	/* PopTopStack */
+          POP[ ]	/* PopTopStack */
+          POP[ ]	/* PopTopStack */
+          POP[ ]	/* PopTopStack */
+          POP[ ]	/* PopTopStack */
+        EIF[ ]	/* EndIf */
+        SVTCA[1]	/* SetFPVectorToAxis */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        MPPEM[ ]	/* MeasurePixelPerEm */
+        PUSHB[ ]	/* 1 value pushed */
+        100
+        LTEQ[ ]	/* LessThenOrEqual */
+        IF[ ]	/* If */
+          RCVT[ ]	/* ReadCVT */
+          ROUND[01]	/* Round */
+          PUSHB[ ]	/* 1 value pushed */
+          9
+          RS[ ]	/* ReadStore */
+          ADD[ ]	/* Add */
+          ROLL[ ]	/* RollTopThreeStack */
+          SRP0[ ]	/* SetRefPoint0 */
+          MSIRP[0]	/* MoveStackIndirRelPt */
+        ELSE[ ]	/* Else */
+          POP[ ]	/* PopTopStack */
+          POP[ ]	/* PopTopStack */
+          POP[ ]	/* PopTopStack */
+        EIF[ ]	/* EndIf */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        SVTCA[1]	/* SetFPVectorToAxis */
+        PUSHB[ ]	/* 1 value pushed */
+        5
+        CINDEX[ ]	/* CopyXToTopStack */
+        SRP0[ ]	/* SetRefPoint0 */
+        SWAP[ ]	/* SwapTopStack */
+        DUP[ ]	/* DuplicateTopStack */
+        ROLL[ ]	/* RollTopThreeStack */
+        MIRP[10101]	/* MoveIndirectRelPt */
+        SVTCA[0]	/* SetFPVectorToAxis */
+        PUSHB[ ]	/* 1 value pushed */
+        1
+        ADD[ ]	/* Add */
+        SWAP[ ]	/* SwapTopStack */
+        MIRP[01101]	/* MoveIndirectRelPt */
+        MIRP[01100]	/* MoveIndirectRelPt */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        SVTCA[1]	/* SetFPVectorToAxis */
+        PUSHB[ ]	/* 1 value pushed */
+        5
+        CINDEX[ ]	/* CopyXToTopStack */
+        SRP0[ ]	/* SetRefPoint0 */
+        SWAP[ ]	/* SwapTopStack */
+        DUP[ ]	/* DuplicateTopStack */
+        ROLL[ ]	/* RollTopThreeStack */
+        MIRP[10101]	/* MoveIndirectRelPt */
+        SVTCA[0]	/* SetFPVectorToAxis */
+        PUSHB[ ]	/* 1 value pushed */
+        1
+        SUB[ ]	/* Subtract */
+        SWAP[ ]	/* SwapTopStack */
+        MIRP[01101]	/* MoveIndirectRelPt */
+        MIRP[01100]	/* MoveIndirectRelPt */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        SVTCA[1]	/* SetFPVectorToAxis */
+        PUSHB[ ]	/* 1 value pushed */
+        6
+        CINDEX[ ]	/* CopyXToTopStack */
+        SRP0[ ]	/* SetRefPoint0 */
+        MIRP[10101]	/* MoveIndirectRelPt */
+        SVTCA[0]	/* SetFPVectorToAxis */
+        MIRP[01101]	/* MoveIndirectRelPt */
+        MIRP[01100]	/* MoveIndirectRelPt */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        1
+        ADD[ ]	/* Add */
+        SVTCA[1]	/* SetFPVectorToAxis */
+        SRP0[ ]	/* SetRefPoint0 */
+        DUP[ ]	/* DuplicateTopStack */
+        ALIGNRP[ ]	/* AlignRelativePt */
+        SVTCA[0]	/* SetFPVectorToAxis */
+        ALIGNRP[ ]	/* AlignRelativePt */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        1
+        SUB[ ]	/* Subtract */
+        SVTCA[1]	/* SetFPVectorToAxis */
+        SRP0[ ]	/* SetRefPoint0 */
+        DUP[ ]	/* DuplicateTopStack */
+        ALIGNRP[ ]	/* AlignRelativePt */
+        SVTCA[0]	/* SetFPVectorToAxis */
+        ALIGNRP[ ]	/* AlignRelativePt */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        PUSHB[ ]	/* 1 value pushed */
+        43
+        CALL[ ]	/* CallFunction */
+        PUSHB[ ]	/* 1 value pushed */
+        42
+        LOOPCALL[ ]	/* LoopAndCallFunction */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        SVTCA[0]	/* SetFPVectorToAxis */
+        PUSHB[ ]	/* 1 value pushed */
+        7
+        RS[ ]	/* ReadStore */
+        PUSHB[ ]	/* 1 value pushed */
+        6
+        RS[ ]	/* ReadStore */
+        SFVFS[ ]	/* SetFVectorFromStack */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        MIAP[0]	/* MoveIndirectAbsPt */
+        PUSHB[ ]	/* 1 value pushed */
+        42
+        LOOPCALL[ ]	/* LoopAndCallFunction */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        SHC[1]	/* ShiftContourByLastPt */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        SROUND[ ]	/* SuperRound */
+        PUSHW[ ]	/* 1 value pushed */
+        547
+        SWAP[ ]	/* SwapTopStack */
+        WCVTF[ ]	/* WriteCVTInFUnits */
+        SRP0[ ]	/* SetRefPoint0 */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHW[ ]	/* 1 value pushed */
+        547
+        RCVT[ ]	/* ReadCVT */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        0
+        LT[ ]	/* LessThan */
+        IF[ ]	/* If */
+          PUSHB[ ]	/* 1 value pushed */
+          1
+          SUB[ ]	/* Subtract */
+        EIF[ ]	/* EndIf */
+        MSIRP[0]	/* MoveStackIndirRelPt */
+        MDAP[1]	/* MoveDirectAbsPt */
+        RTG[ ]	/* RoundToGrid */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        POP[ ]	/* PopTopStack */
+        POP[ ]	/* PopTopStack */
+        GPV[ ]	/* GetPVector */
+        ABS[ ]	/* Absolute */
+        SWAP[ ]	/* SwapTopStack */
+        ABS[ ]	/* Absolute */
+        MAX[ ]	/* Maximum */
+        PUSHW[ ]	/* 1 value pushed */
+        16384
+        DIV[ ]	/* Divide */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        POP[ ]	/* PopTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        128
+        LTEQ[ ]	/* LessThenOrEqual */
+        IF[ ]	/* If */
+          GPV[ ]	/* GetPVector */
+          ABS[ ]	/* Absolute */
+          SWAP[ ]	/* SwapTopStack */
+          ABS[ ]	/* Absolute */
+          MAX[ ]	/* Maximum */
+          PUSHW[ ]	/* 1 value pushed */
+          8192
+          DIV[ ]	/* Divide */
+        ELSE[ ]	/* Else */
+          PUSHB[ ]	/* 3 values pushed */
+          0 64 47
+          CALL[ ]	/* CallFunction */
+        EIF[ ]	/* EndIf */
+        PUSHB[ ]	/* 1 value pushed */
+        2
+        ADD[ ]	/* Add */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        POP[ ]	/* PopTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        192
+        LTEQ[ ]	/* LessThenOrEqual */
+        IF[ ]	/* If */
+          GPV[ ]	/* GetPVector */
+          ABS[ ]	/* Absolute */
+          SWAP[ ]	/* SwapTopStack */
+          ABS[ ]	/* Absolute */
+          MAX[ ]	/* Maximum */
+          PUSHW[ ]	/* 1 value pushed */
+          5461
+          DIV[ ]	/* Divide */
+        ELSE[ ]	/* Else */
+          PUSHB[ ]	/* 3 values pushed */
+          0 128 47
+          CALL[ ]	/* CallFunction */
+        EIF[ ]	/* EndIf */
+        PUSHB[ ]	/* 1 value pushed */
+        2
+        ADD[ ]	/* Add */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        GPV[ ]	/* GetPVector */
+        ABS[ ]	/* Absolute */
+        SWAP[ ]	/* SwapTopStack */
+        ABS[ ]	/* Absolute */
+        MAX[ ]	/* Maximum */
+        PUSHW[ ]	/* 1 value pushed */
+        16384
+        DIV[ ]	/* Divide */
+        ADD[ ]	/* Add */
+        SWAP[ ]	/* SwapTopStack */
+        POP[ ]	/* PopTopStack */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        PUSHB[ ]	/* 5 values pushed */
+        0 1 0 0 0
+        SZP2[ ]	/* SetZonePointer2 */
+        PUSHB[ ]	/* 1 value pushed */
+        8
+        MINDEX[ ]	/* MoveXToTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        8
+        MINDEX[ ]	/* MoveXToTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        8
+        MINDEX[ ]	/* MoveXToTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        8
+        MINDEX[ ]	/* MoveXToTopStack */
+        ISECT[ ]	/* MovePtToIntersect */
+        SRP0[ ]	/* SetRefPoint0 */
+        SZPS[ ]	/* SetZonePointerS */
+        SZP0[ ]	/* SetZonePointer0 */
+        RCVT[ ]	/* ReadCVT */
+        ROUND[00]	/* Round */
+        MSIRP[0]	/* MoveStackIndirRelPt */
+        PUSHB[ ]	/* 1 value pushed */
+        1
+        SZPS[ ]	/* SetZonePointerS */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        PUSHB[ ]	/* 5 values pushed */
+        0 1 0 0 0
+        SZP2[ ]	/* SetZonePointer2 */
+        PUSHB[ ]	/* 1 value pushed */
+        8
+        MINDEX[ ]	/* MoveXToTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        8
+        MINDEX[ ]	/* MoveXToTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        8
+        MINDEX[ ]	/* MoveXToTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        8
+        MINDEX[ ]	/* MoveXToTopStack */
+        ISECT[ ]	/* MovePtToIntersect */
+        SRP0[ ]	/* SetRefPoint0 */
+        SZPS[ ]	/* SetZonePointerS */
+        SZP0[ ]	/* SetZonePointer0 */
+        RCVT[ ]	/* ReadCVT */
+        ROUND[00]	/* Round */
+        NEG[ ]	/* Negate */
+        MSIRP[0]	/* MoveStackIndirRelPt */
+        PUSHB[ ]	/* 1 value pushed */
+        1
+        SZPS[ ]	/* SetZonePointerS */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        MPPEM[ ]	/* MeasurePixelPerEm */
+        GTEQ[ ]	/* GreaterThanOrEqual */
+        SWAP[ ]	/* SwapTopStack */
+        MPPEM[ ]	/* MeasurePixelPerEm */
+        LTEQ[ ]	/* LessThenOrEqual */
+        AND[ ]	/* LogicalAnd */
+        IF[ ]	/* If */
+          DUP[ ]	/* DuplicateTopStack */
+          RCVT[ ]	/* ReadCVT */
+          ROLL[ ]	/* RollTopThreeStack */
+          ADD[ ]	/* Add */
+          WCVTP[ ]	/* WriteCVTInPixels */
+        ELSE[ ]	/* Else */
+          POP[ ]	/* PopTopStack */
+          POP[ ]	/* PopTopStack */
+        EIF[ ]	/* EndIf */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        MPPEM[ ]	/* MeasurePixelPerEm */
+        EQ[ ]	/* Equal */
+        IF[ ]	/* If */
+          DUP[ ]	/* DuplicateTopStack */
+          RCVT[ ]	/* ReadCVT */
+          ROLL[ ]	/* RollTopThreeStack */
+          ADD[ ]	/* Add */
+          WCVTP[ ]	/* WriteCVTInPixels */
+        ELSE[ ]	/* Else */
+          POP[ ]	/* PopTopStack */
+          POP[ ]	/* PopTopStack */
+        EIF[ ]	/* EndIf */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        MPPEM[ ]	/* MeasurePixelPerEm */
+        GTEQ[ ]	/* GreaterThanOrEqual */
+        SWAP[ ]	/* SwapTopStack */
+        MPPEM[ ]	/* MeasurePixelPerEm */
+        LTEQ[ ]	/* LessThenOrEqual */
+        AND[ ]	/* LogicalAnd */
+        IF[ ]	/* If */
+          SHPIX[ ]	/* ShiftZoneByPixel */
+        ELSE[ ]	/* Else */
+          POP[ ]	/* PopTopStack */
+          POP[ ]	/* PopTopStack */
+        EIF[ ]	/* EndIf */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        MPPEM[ ]	/* MeasurePixelPerEm */
+        EQ[ ]	/* Equal */
+        IF[ ]	/* If */
+          SHPIX[ ]	/* ShiftZoneByPixel */
+        ELSE[ ]	/* Else */
+          POP[ ]	/* PopTopStack */
+          POP[ ]	/* PopTopStack */
+        EIF[ ]	/* EndIf */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        PUSHB[ ]	/* 1 value pushed */
+        19
+        RS[ ]	/* ReadStore */
+        IF[ ]	/* If */
+          SPVTCA[1]	/* SetPVectorToAxis */
+        ELSE[ ]	/* Else */
+          SPVTCA[0]	/* SetPVectorToAxis */
+        EIF[ ]	/* EndIf */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        PUSHB[ ]	/* 1 value pushed */
+        19
+        RS[ ]	/* ReadStore */
+        IF[ ]	/* If */
+          SPVTCA[0]	/* SetPVectorToAxis */
+        ELSE[ ]	/* Else */
+          SPVTCA[1]	/* SetPVectorToAxis */
+        EIF[ ]	/* EndIf */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        MPPEM[ ]	/* MeasurePixelPerEm */
+        EQ[ ]	/* Equal */
+        PUSHB[ ]	/* 1 value pushed */
+        18
+        RS[ ]	/* ReadStore */
+        NOT[ ]	/* LogicalNot */
+        AND[ ]	/* LogicalAnd */
+        IF[ ]	/* If */
+          SHPIX[ ]	/* ShiftZoneByPixel */
+        ELSE[ ]	/* Else */
+          POP[ ]	/* PopTopStack */
+          POP[ ]	/* PopTopStack */
+        EIF[ ]	/* EndIf */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        PUSHB[ ]	/* 1 value pushed */
+        18
+        RS[ ]	/* ReadStore */
+        NOT[ ]	/* LogicalNot */
+        IF[ ]	/* If */
+          GPV[ ]	/* GetPVector */
+          PUSHB[ ]	/* 1 value pushed */
+          4
+          CINDEX[ ]	/* CopyXToTopStack */
+          PUSHB[ ]	/* 1 value pushed */
+          4
+          CINDEX[ ]	/* CopyXToTopStack */
+          SPVTL[0]	/* SetPVectorToLine */
+          GPV[ ]	/* GetPVector */
+          ABS[ ]	/* Absolute */
+          SWAP[ ]	/* SwapTopStack */
+          ABS[ ]	/* Absolute */
+          SUB[ ]	/* Subtract */
+          ABS[ ]	/* Absolute */
+          PUSHW[ ]	/* 1 value pushed */
+          1800
+          LTEQ[ ]	/* LessThenOrEqual */
+          IF[ ]	/* If */
+            PUSHB[ ]	/* 1 value pushed */
+            4
+            CINDEX[ ]	/* CopyXToTopStack */
+            PUSHB[ ]	/* 1 value pushed */
+            4
+            CINDEX[ ]	/* CopyXToTopStack */
+            SVTCA[1]	/* SetFPVectorToAxis */
+            DUP[ ]	/* DuplicateTopStack */
+            GC[0]	/* GetCoordOnPVector */
+            PUSHB[ ]	/* 1 value pushed */
+            16
+            ADD[ ]	/* Add */
+            SCFS[ ]	/* SetCoordFromStackFP */
+            DUP[ ]	/* DuplicateTopStack */
+            GC[0]	/* GetCoordOnPVector */
+            PUSHB[ ]	/* 1 value pushed */
+            16
+            ADD[ ]	/* Add */
+            SCFS[ ]	/* SetCoordFromStackFP */
+          EIF[ ]	/* EndIf */
+          SPVFS[ ]	/* SetPVectorFromStack */
+          POP[ ]	/* PopTopStack */
+          POP[ ]	/* PopTopStack */
+        ELSE[ ]	/* Else */
+          POP[ ]	/* PopTopStack */
+          POP[ ]	/* PopTopStack */
+        EIF[ ]	/* EndIf */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        PUSHB[ ]	/* 1 value pushed */
+        18
+        RS[ ]	/* ReadStore */
+        NOT[ ]	/* LogicalNot */
+        IF[ ]	/* If */
+          GPV[ ]	/* GetPVector */
+          PUSHB[ ]	/* 1 value pushed */
+          4
+          CINDEX[ ]	/* CopyXToTopStack */
+          PUSHB[ ]	/* 1 value pushed */
+          4
+          CINDEX[ ]	/* CopyXToTopStack */
+          SPVTL[0]	/* SetPVectorToLine */
+          GPV[ ]	/* GetPVector */
+          ABS[ ]	/* Absolute */
+          SWAP[ ]	/* SwapTopStack */
+          ABS[ ]	/* Absolute */
+          SUB[ ]	/* Subtract */
+          ABS[ ]	/* Absolute */
+          PUSHW[ ]	/* 1 value pushed */
+          1800
+          LTEQ[ ]	/* LessThenOrEqual */
+          IF[ ]	/* If */
+            PUSHB[ ]	/* 1 value pushed */
+            4
+            CINDEX[ ]	/* CopyXToTopStack */
+            PUSHB[ ]	/* 1 value pushed */
+            4
+            CINDEX[ ]	/* CopyXToTopStack */
+            SVTCA[1]	/* SetFPVectorToAxis */
+            DUP[ ]	/* DuplicateTopStack */
+            GC[0]	/* GetCoordOnPVector */
+            PUSHW[ ]	/* 1 value pushed */
+            -16
+            ADD[ ]	/* Add */
+            SCFS[ ]	/* SetCoordFromStackFP */
+            DUP[ ]	/* DuplicateTopStack */
+            GC[0]	/* GetCoordOnPVector */
+            PUSHW[ ]	/* 1 value pushed */
+            -16
+            ADD[ ]	/* Add */
+            SCFS[ ]	/* SetCoordFromStackFP */
+          EIF[ ]	/* EndIf */
+          SPVFS[ ]	/* SetPVectorFromStack */
+          POP[ ]	/* PopTopStack */
+          POP[ ]	/* PopTopStack */
+        ELSE[ ]	/* Else */
+          POP[ ]	/* PopTopStack */
+          POP[ ]	/* PopTopStack */
+        EIF[ ]	/* EndIf */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        MPPEM[ ]	/* MeasurePixelPerEm */
+        GTEQ[ ]	/* GreaterThanOrEqual */
+        SWAP[ ]	/* SwapTopStack */
+        MPPEM[ ]	/* MeasurePixelPerEm */
+        LTEQ[ ]	/* LessThenOrEqual */
+        AND[ ]	/* LogicalAnd */
+        IF[ ]	/* If */
+          PUSHB[ ]	/* 1 value pushed */
+          58
+          CALL[ ]	/* CallFunction */
+        ELSE[ ]	/* Else */
+          POP[ ]	/* PopTopStack */
+          POP[ ]	/* PopTopStack */
+        EIF[ ]	/* EndIf */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        MPPEM[ ]	/* MeasurePixelPerEm */
+        GTEQ[ ]	/* GreaterThanOrEqual */
+        SWAP[ ]	/* SwapTopStack */
+        MPPEM[ ]	/* MeasurePixelPerEm */
+        LTEQ[ ]	/* LessThenOrEqual */
+        AND[ ]	/* LogicalAnd */
+        IF[ ]	/* If */
+          PUSHB[ ]	/* 1 value pushed */
+          59
+          CALL[ ]	/* CallFunction */
+        ELSE[ ]	/* Else */
+          POP[ ]	/* PopTopStack */
+          POP[ ]	/* PopTopStack */
+        EIF[ ]	/* EndIf */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        MPPEM[ ]	/* MeasurePixelPerEm */
+        GTEQ[ ]	/* GreaterThanOrEqual */
+        SWAP[ ]	/* SwapTopStack */
+        MPPEM[ ]	/* MeasurePixelPerEm */
+        LTEQ[ ]	/* LessThenOrEqual */
+        AND[ ]	/* LogicalAnd */
+        PUSHB[ ]	/* 1 value pushed */
+        18
+        RS[ ]	/* ReadStore */
+        NOT[ ]	/* LogicalNot */
+        AND[ ]	/* LogicalAnd */
+        IF[ ]	/* If */
+          SHPIX[ ]	/* ShiftZoneByPixel */
+        ELSE[ ]	/* Else */
+          POP[ ]	/* PopTopStack */
+          POP[ ]	/* PopTopStack */
+        EIF[ ]	/* EndIf */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        GPV[ ]	/* GetPVector */
+        ROLL[ ]	/* RollTopThreeStack */
+        SPVTCA[1]	/* SetPVectorToAxis */
+        MPPEM[ ]	/* MeasurePixelPerEm */
+        EQ[ ]	/* Equal */
+        PUSHB[ ]	/* 1 value pushed */
+        4
+        MINDEX[ ]	/* MoveXToTopStack */
+        SPVTCA[0]	/* SetPVectorToAxis */
+        MPPEM[ ]	/* MeasurePixelPerEm */
+        EQ[ ]	/* Equal */
+        AND[ ]	/* LogicalAnd */
+        ROLL[ ]	/* RollTopThreeStack */
+        ROLL[ ]	/* RollTopThreeStack */
+        SPVFS[ ]	/* SetPVectorFromStack */
+        PUSHB[ ]	/* 1 value pushed */
+        18
+        RS[ ]	/* ReadStore */
+        NOT[ ]	/* LogicalNot */
+        AND[ ]	/* LogicalAnd */
+        IF[ ]	/* If */
+          SHPIX[ ]	/* ShiftZoneByPixel */
+        ELSE[ ]	/* Else */
+          POP[ ]	/* PopTopStack */
+          POP[ ]	/* PopTopStack */
+        EIF[ ]	/* EndIf */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        MPPEM[ ]	/* MeasurePixelPerEm */
+        GT[ ]	/* GreaterThan */
+        IF[ ]	/* If */
+          PUSHB[ ]	/* 1 value pushed */
+          4
+          CINDEX[ ]	/* CopyXToTopStack */
+          PUSHB[ ]	/* 1 value pushed */
+          4
+          CINDEX[ ]	/* CopyXToTopStack */
+          MD[0]	/* MeasureDistance */
+          PUSHB[ ]	/* 1 value pushed */
+          4
+          CINDEX[ ]	/* CopyXToTopStack */
+          PUSHB[ ]	/* 1 value pushed */
+          4
+          CINDEX[ ]	/* CopyXToTopStack */
+          MD[0]	/* MeasureDistance */
+          SUB[ ]	/* Subtract */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSHB[ ]	/* 1 value pushed */
+          0
+          EQ[ ]	/* Equal */
+          IF[ ]	/* If */
+            POP[ ]	/* PopTopStack */
+            DUP[ ]	/* DuplicateTopStack */
+            RS[ ]	/* ReadStore */
+            PUSHB[ ]	/* 1 value pushed */
+            0
+            NEQ[ ]	/* NotEqual */
+            IF[ ]	/* If */
+              PUSHB[ ]	/* 1 value pushed */
+              3
+              CINDEX[ ]	/* CopyXToTopStack */
+              PUSHB[ ]	/* 1 value pushed */
+              3
+              CINDEX[ ]	/* CopyXToTopStack */
+              PUSHW[ ]	/* 1 value pushed */
+              -64
+              SHPIX[ ]	/* ShiftZoneByPixel */
+              PUSHW[ ]	/* 1 value pushed */
+              -64
+              SHPIX[ ]	/* ShiftZoneByPixel */
+            EIF[ ]	/* EndIf */
+          ELSE[ ]	/* Else */
+            PUSHB[ ]	/* 1 value pushed */
+            64
+            EQ[ ]	/* Equal */
+            IF[ ]	/* If */
+              DUP[ ]	/* DuplicateTopStack */
+              RS[ ]	/* ReadStore */
+              PUSHB[ ]	/* 1 value pushed */
+              0
+              EQ[ ]	/* Equal */
+              IF[ ]	/* If */
+                PUSHB[ ]	/* 1 value pushed */
+                2
+                CINDEX[ ]	/* CopyXToTopStack */
+                PUSHW[ ]	/* 1 value pushed */
+                -64
+                SHPIX[ ]	/* ShiftZoneByPixel */
+              EIF[ ]	/* EndIf */
+            ELSE[ ]	/* Else */
+              DUP[ ]	/* DuplicateTopStack */
+              RS[ ]	/* ReadStore */
+              PUSHB[ ]	/* 1 value pushed */
+              0
+              EQ[ ]	/* Equal */
+              IF[ ]	/* If */
+                PUSHB[ ]	/* 1 value pushed */
+                3
+                CINDEX[ ]	/* CopyXToTopStack */
+                PUSHB[ ]	/* 1 value pushed */
+                3
+                CINDEX[ ]	/* CopyXToTopStack */
+                PUSHW[ ]	/* 1 value pushed */
+                -64
+                SHPIX[ ]	/* ShiftZoneByPixel */
+                PUSHW[ ]	/* 1 value pushed */
+                -64
+                SHPIX[ ]	/* ShiftZoneByPixel */
+              ELSE[ ]	/* Else */
+                PUSHB[ ]	/* 1 value pushed */
+                3
+                CINDEX[ ]	/* CopyXToTopStack */
+                PUSHW[ ]	/* 1 value pushed */
+                -64
+                SHPIX[ ]	/* ShiftZoneByPixel */
+              EIF[ ]	/* EndIf */
+            EIF[ ]	/* EndIf */
+          EIF[ ]	/* EndIf */
+        EIF[ ]	/* EndIf */
+        POP[ ]	/* PopTopStack */
+        POP[ ]	/* PopTopStack */
+        POP[ ]	/* PopTopStack */
+        POP[ ]	/* PopTopStack */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        GC[0]	/* GetCoordOnPVector */
+        SWAP[ ]	/* SwapTopStack */
+        GC[0]	/* GetCoordOnPVector */
+        ADD[ ]	/* Add */
+        ROLL[ ]	/* RollTopThreeStack */
+        ROLL[ ]	/* RollTopThreeStack */
+        GC[0]	/* GetCoordOnPVector */
+        SWAP[ ]	/* SwapTopStack */
+        DUP[ ]	/* DuplicateTopStack */
+        GC[0]	/* GetCoordOnPVector */
+        ROLL[ ]	/* RollTopThreeStack */
+        ADD[ ]	/* Add */
+        ROLL[ ]	/* RollTopThreeStack */
+        SUB[ ]	/* Subtract */
+        PUSHW[ ]	/* 1 value pushed */
+        -128
+        DIV[ ]	/* Divide */
+        SWAP[ ]	/* SwapTopStack */
+        DUP[ ]	/* DuplicateTopStack */
+        SRP0[ ]	/* SetRefPoint0 */
+        SWAP[ ]	/* SwapTopStack */
+        ROLL[ ]	/* RollTopThreeStack */
+        PUSHW[ ]	/* 2 values pushed */
+        706 706
+        ROLL[ ]	/* RollTopThreeStack */
+        WCVTF[ ]	/* WriteCVTInFUnits */
+        RCVT[ ]	/* ReadCVT */
+        ADD[ ]	/* Add */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        0
+        LT[ ]	/* LessThan */
+        IF[ ]	/* If */
+          PUSHB[ ]	/* 1 value pushed */
+          1
+          SUB[ ]	/* Subtract */
+          PUSHW[ ]	/* 1 value pushed */
+          -70
+          MAX[ ]	/* Maximum */
+        ELSE[ ]	/* Else */
+          PUSHB[ ]	/* 1 value pushed */
+          70
+          MIN[ ]	/* Minimum */
+        EIF[ ]	/* EndIf */
+        PUSHB[ ]	/* 1 value pushed */
+        16
+        ADD[ ]	/* Add */
+        ROUND[00]	/* Round */
+        SVTCA[1]	/* SetFPVectorToAxis */
+        MSIRP[0]	/* MoveStackIndirRelPt */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        PUSHB[ ]	/* 2 values pushed */
+        2 0
+        WS[ ]	/* WriteStore */
+        PUSHB[ ]	/* 2 values pushed */
+        35 1
+        GETINFO[ ]	/* GetInfo */
+        LTEQ[ ]	/* LessThenOrEqual */
+        PUSHB[ ]	/* 2 values pushed */
+        64 1
+        GETINFO[ ]	/* GetInfo */
+        GTEQ[ ]	/* GreaterThanOrEqual */
+        AND[ ]	/* LogicalAnd */
+        IF[ ]	/* If */
+          PUSHW[ ]	/* 2 values pushed */
+          4096 32
+          GETINFO[ ]	/* GetInfo */
+          EQ[ ]	/* Equal */
+          IF[ ]	/* If */
+            PUSHB[ ]	/* 3 values pushed */
+            2 1 2
+            RS[ ]	/* ReadStore */
+            ADD[ ]	/* Add */
+            WS[ ]	/* WriteStore */
+          EIF[ ]	/* EndIf */
+          PUSHB[ ]	/* 2 values pushed */
+          36 1
+          GETINFO[ ]	/* GetInfo */
+          LTEQ[ ]	/* LessThenOrEqual */
+          IF[ ]	/* If */
+            PUSHW[ ]	/* 2 values pushed */
+            8192 64
+            GETINFO[ ]	/* GetInfo */
+            EQ[ ]	/* Equal */
+            IF[ ]	/* If */
+              PUSHB[ ]	/* 3 values pushed */
+              2 2 2
+              RS[ ]	/* ReadStore */
+              ADD[ ]	/* Add */
+              WS[ ]	/* WriteStore */
+              PUSHB[ ]	/* 2 values pushed */
+              36 1
+              GETINFO[ ]	/* GetInfo */
+              EQ[ ]	/* Equal */
+              IF[ ]	/* If */
+                PUSHB[ ]	/* 3 values pushed */
+                2 32 2
+                RS[ ]	/* ReadStore */
+                ADD[ ]	/* Add */
+                WS[ ]	/* WriteStore */
+                SVTCA[0]	/* SetFPVectorToAxis */
+                MPPEM[ ]	/* MeasurePixelPerEm */
+                SVTCA[1]	/* SetFPVectorToAxis */
+                MPPEM[ ]	/* MeasurePixelPerEm */
+                GT[ ]	/* GreaterThan */
+                IF[ ]	/* If */
+                  PUSHB[ ]	/* 3 values pushed */
+                  2 8 2
+                  RS[ ]	/* ReadStore */
+                  ADD[ ]	/* Add */
+                  WS[ ]	/* WriteStore */
+                EIF[ ]	/* EndIf */
+              ELSE[ ]	/* Else */
+                PUSHW[ ]	/* 2 values pushed */
+                16384 128
+                GETINFO[ ]	/* GetInfo */
+                EQ[ ]	/* Equal */
+                IF[ ]	/* If */
+                  PUSHB[ ]	/* 3 values pushed */
+                  2 4 2
+                  RS[ ]	/* ReadStore */
+                  ADD[ ]	/* Add */
+                  WS[ ]	/* WriteStore */
+                EIF[ ]	/* EndIf */
+                PUSHW[ ]	/* 2 values pushed */
+                16384 128
+                MUL[ ]	/* Multiply */
+                PUSHW[ ]	/* 1 value pushed */
+                256
+                GETINFO[ ]	/* GetInfo */
+                EQ[ ]	/* Equal */
+                IF[ ]	/* If */
+                  PUSHB[ ]	/* 3 values pushed */
+                  2 8 2
+                  RS[ ]	/* ReadStore */
+                  ADD[ ]	/* Add */
+                  WS[ ]	/* WriteStore */
+                EIF[ ]	/* EndIf */
+                PUSHW[ ]	/* 2 values pushed */
+                16384 256
+                MUL[ ]	/* Multiply */
+                PUSHW[ ]	/* 1 value pushed */
+                512
+                GETINFO[ ]	/* GetInfo */
+                EQ[ ]	/* Equal */
+                IF[ ]	/* If */
+                  PUSHB[ ]	/* 3 values pushed */
+                  2 16 2
+                  RS[ ]	/* ReadStore */
+                  ADD[ ]	/* Add */
+                  WS[ ]	/* WriteStore */
+                EIF[ ]	/* EndIf */
+                PUSHW[ ]	/* 2 values pushed */
+                16384 512
+                MUL[ ]	/* Multiply */
+                PUSHW[ ]	/* 1 value pushed */
+                1024
+                GETINFO[ ]	/* GetInfo */
+                EQ[ ]	/* Equal */
+                IF[ ]	/* If */
+                  PUSHB[ ]	/* 3 values pushed */
+                  2 64 2
+                  RS[ ]	/* ReadStore */
+                  ADD[ ]	/* Add */
+                  WS[ ]	/* WriteStore */
+                EIF[ ]	/* EndIf */
+              EIF[ ]	/* EndIf */
+            EIF[ ]	/* EndIf */
+          EIF[ ]	/* EndIf */
+        EIF[ ]	/* EndIf */
+      ENDF[ ]	/* EndFunctionDefinition */
+      FDEF[ ]	/* FunctionDefinition */
+        PUSHB[ ]	/* 1 value pushed */
+        2
+        RS[ ]	/* ReadStore */
+        EQ[ ]	/* Equal */
+        IF[ ]	/* If */
+          MPPEM[ ]	/* MeasurePixelPerEm */
+          GTEQ[ ]	/* GreaterThanOrEqual */
+          SWAP[ ]	/* SwapTopStack */
+          MPPEM[ ]	/* MeasurePixelPerEm */
+          LTEQ[ ]	/* LessThenOrEqual */
+          AND[ ]	/* LogicalAnd */
+          IF[ ]	/* If */
+            SHPIX[ ]	/* ShiftZoneByPixel */
+          ELSE[ ]	/* Else */
+            POP[ ]	/* PopTopStack */
+            POP[ ]	/* PopTopStack */
+          EIF[ ]	/* EndIf */
+        ELSE[ ]	/* Else */
+          POP[ ]	/* PopTopStack */
+          POP[ ]	/* PopTopStack */
+          POP[ ]	/* PopTopStack */
+          POP[ ]	/* PopTopStack */
+        EIF[ ]	/* EndIf */
+      ENDF[ ]	/* EndFunctionDefinition */
+    </assembly>
+  </fpgm>
+
+  <prep>
+    <assembly>
+      PUSHB[ ]	/* 2 values pushed */
+      84 15
+      NPUSHW[ ]	/* 34 values pushed */
+      791 239 791 255 791 3 31 791 47 791 79 791 95 791 143 791 159 791 6 15 791 95 791 111 791
+      127 791 191 791 240 791 6 64 791
+      PUSHB[ ]	/* 3 values pushed */
+      146 51 64
+      PUSHW[ ]	/* 1 value pushed */
+      791
+      PUSHB[ ]	/* 3 values pushed */
+      139 51 64
+      PUSHW[ ]	/* 1 value pushed */
+      791
+      PUSHB[ ]	/* 4 values pushed */
+      106 108 50 64
+      PUSHW[ ]	/* 1 value pushed */
+      791
+      PUSHB[ ]	/* 3 values pushed */
+      97 51 64
+      PUSHW[ ]	/* 1 value pushed */
+      791
+      PUSHB[ ]	/* 4 values pushed */
+      92 93 50 64
+      PUSHW[ ]	/* 1 value pushed */
+      791
+      PUSHB[ ]	/* 4 values pushed */
+      87 89 50 64
+      PUSHW[ ]	/* 1 value pushed */
+      791
+      PUSHB[ ]	/* 4 values pushed */
+      77 81 50 64
+      PUSHW[ ]	/* 1 value pushed */
+      791
+      PUSHB[ ]	/* 4 values pushed */
+      68 73 50 64
+      PUSHW[ ]	/* 1 value pushed */
+      791
+      PUSHB[ ]	/* 3 values pushed */
+      58 51 64
+      PUSHW[ ]	/* 1 value pushed */
+      791
+      PUSHB[ ]	/* 4 values pushed */
+      49 52 50 64
+      PUSHW[ ]	/* 1 value pushed */
+      791
+      PUSHB[ ]	/* 4 values pushed */
+      46 66 50 64
+      PUSHW[ ]	/* 1 value pushed */
+      791
+      PUSHB[ ]	/* 4 values pushed */
+      39 44 50 64
+      PUSHW[ ]	/* 1 value pushed */
+      791
+      PUSHB[ ]	/* 4 values pushed */
+      18 37 50 128
+      PUSHW[ ]	/* 1 value pushed */
+      791
+      PUSHB[ ]	/* 4 values pushed */
+      10 13 50 192
+      NPUSHW[ ]	/* 22 values pushed */
+      790 208 790 2 112 790 1 708 15 257 31 160 789 176 789 2 774 15 257 31 64 786
+      PUSHB[ ]	/* 4 values pushed */
+      36 38 50 159
+      PUSHW[ ]	/* 8 values pushed */
+      772 1 770 769 100 31 -64 769
+      PUSHB[ ]	/* 3 values pushed */
+      13 17 50
+      NPUSHW[ ]	/* 10 values pushed */
+      767 751 18 31 750 749 100 31 -64 749
+      PUSHB[ ]	/* 4 values pushed */
+      14 17 50 159
+      NPUSHW[ ]	/* 74 values pushed */
+      738 175 738 191 738 3 738 738 737 737 127 736 1 16 736 63 736 159 736 191 736 207 736 239 736
+      6 736 736 735 735 734 734 15 733 47 733 63 733 95 733 159 733 191 733 239 733 7 733 733 16
+      732 1 0 732 1 16 732 63 732 2 732 732 16 731 1 731 731 15 730 1 730 730 -64 723
+      PUSHB[ ]	/* 3 values pushed */
+      55 57 50
+      PUSHW[ ]	/* 2 values pushed */
+      -64 723
+      PUSHB[ ]	/* 3 values pushed */
+      43 47 50
+      PUSHW[ ]	/* 2 values pushed */
+      -64 723
+      PUSHB[ ]	/* 3 values pushed */
+      31 37 50
+      PUSHW[ ]	/* 2 values pushed */
+      -64 723
+      PUSHB[ ]	/* 3 values pushed */
+      23 27 50
+      PUSHW[ ]	/* 2 values pushed */
+      -64 723
+      PUSHB[ ]	/* 3 values pushed */
+      18 22 50
+      PUSHW[ ]	/* 1 value pushed */
+      722
+      PUSHB[ ]	/* 3 values pushed */
+      249 41 31
+      PUSHW[ ]	/* 1 value pushed */
+      739
+      PUSHB[ ]	/* 4 values pushed */
+      32 43 31 160
+      NPUSHW[ ]	/* 48 values pushed */
+      724 176 724 2 0 724 16 724 32 724 80 724 96 724 112 724 6 96 726 112 726 128 726 144 726
+      160 726 176 726 6 0 726 16 726 32 714 32 716 32 726 48 726 64 726 80 726 8 720
+      PUSHB[ ]	/* 3 values pushed */
+      32 43 31
+      PUSHW[ ]	/* 1 value pushed */
+      719
+      PUSHB[ ]	/* 3 values pushed */
+      38 66 31
+      NPUSHW[ ]	/* 22 values pushed */
+      718 711 23 31 717 712 23 31 716 710 23 31 715 709 23 31 713 709 30 31 714 710
+      PUSHB[ ]	/* 3 values pushed */
+      30 31 0
+      NPUSHW[ ]	/* 11 values pushed */
+      710 0 711 16 710 16 711 47 709 5 705
+      PUSHB[ ]	/* 4 values pushed */
+      36 18 31 255
+      NPUSHW[ ]	/* 17 values pushed */
+      703 1 31 703 47 703 63 703 79 703 95 703 143 703 6 703 546
+      PUSHB[ ]	/* 3 values pushed */
+      100 31 18
+      NPUSHW[ ]	/* 11 values pushed */
+      699 202 2048 31 690 233 2048 31 678 162 2048
+      NPUSHB[ ]	/* 106 values pushed */
+      31 64 38 67 73 50 64 32 67 73 50 64 38 58 61 50 64 32 58 61 50 159 32 159 38
+      2 64 38 150 153 50 64 32 150 153 50 64 38 142 146 50 64 32 142 146 50 64 38 132 140
+      50 64 32 132 140 50 64 38 122 129 50 64 32 122 129 50 64 38 108 118 50 64 32 108 118
+      50 64 38 100 106 50 64 32 100 106 50 64 38 90 95 50 64 32 90 95 50 64 38 79 84
+      50 64 32 79 84 50
+      PUSHW[ ]	/* 1 value pushed */
+      670
+      PUSHB[ ]	/* 8 values pushed */
+      36 39 31 55 79 107 1 32
+      NPUSHW[ ]	/* 15 values pushed */
+      631 48 631 64 631 80 631 4 631 631 631 249 1024 31 667
+      PUSHB[ ]	/* 3 values pushed */
+      42 42 31
+      PUSHW[ ]	/* 1 value pushed */
+      666
+      NPUSHB[ ]	/* 43 values pushed */
+      41 42 31 128 186 1 128 188 1 128 82 1 128 162 1 128 101 1 128 126 1 128 129 1 128
+      60 1 128 94 1 128 43 1 128 28 1 128 30 1 128 64 1 128
+      PUSHW[ ]	/* 4 values pushed */
+      312 1 128 320
+      PUSHB[ ]	/* 5 values pushed */
+      1 128 64 1 128
+      PUSHW[ ]	/* 4 values pushed */
+      312 1 128 313
+      NPUSHB[ ]	/* 24 values pushed */
+      1 128 202 1 128 173 1 128 115 1 128 38 1 128 37 1 128 36 1 128 32 1 55 64
+      PUSHW[ ]	/* 1 value pushed */
+      545
+      PUSHB[ ]	/* 3 values pushed */
+      73 51 64
+      PUSHW[ ]	/* 1 value pushed */
+      545
+      PUSHB[ ]	/* 3 values pushed */
+      69 51 64
+      PUSHW[ ]	/* 1 value pushed */
+      545
+      PUSHB[ ]	/* 4 values pushed */
+      65 66 50 64
+      PUSHW[ ]	/* 1 value pushed */
+      545
+      PUSHB[ ]	/* 4 values pushed */
+      61 62 50 15
+      NPUSHW[ ]	/* 15 values pushed */
+      545 63 545 127 545 3 191 545 207 545 255 545 3 64 545
+      PUSHB[ ]	/* 4 values pushed */
+      32 34 50 64
+      PUSHW[ ]	/* 1 value pushed */
+      545
+      PUSHB[ ]	/* 4 values pushed */
+      25 30 50 64
+      PUSHW[ ]	/* 1 value pushed */
+      546
+      PUSHB[ ]	/* 4 values pushed */
+      42 63 50 64
+      PUSHW[ ]	/* 1 value pushed */
+      545
+      PUSHB[ ]	/* 4 values pushed */
+      46 58 50 111
+      NPUSHW[ ]	/* 72 values pushed */
+      707 127 707 143 707 223 707 4 47 707 96 707 207 707 3 15 707 63 707 95 707 192 707 239 707
+      255 707 6 223 546 1 143 546 1 15 546 47 546 63 546 95 546 127 546 239 546 6 191 545 239
+      545 2 111 545 127 545 175 545 3 47 545 63 545 79 545 3 707 707 546 546 545 545
+      NPUSHB[ ]	/* 29 values pushed */
+      16 28 16 43 16 72 3 143 28 1 15 30 1 79 30 255 30 2 55 0 22 22 0 0 0
+      18 17 8 17
+      PUSHW[ ]	/* 1 value pushed */
+      269
+      PUSHB[ ]	/* 7 values pushed */
+      247 13 248 247 13 0 9
+      NPUSHW[ ]	/* 9 values pushed */
+      654 655 29 31 656 655 29 31 655
+      PUSHB[ ]	/* 3 values pushed */
+      249 29 31
+      PUSHW[ ]	/* 1 value pushed */
+      408
+      PUSHB[ ]	/* 3 values pushed */
+      38 187 31
+      NPUSHW[ ]	/* 21 values pushed */
+      407 30 1025 31 313 38 293 31 312 115 1025 31 309 28 2049 31 308 28 683 31 306
+      PUSHB[ ]	/* 3 values pushed */
+      28 86 31
+      PUSHW[ ]	/* 1 value pushed */
+      271
+      PUSHB[ ]	/* 3 values pushed */
+      38 44 31
+      PUSHW[ ]	/* 3 values pushed */
+      270 30 1025
+      PUSHB[ ]	/* 7 values pushed */
+      31 249 28 228 31 233 28
+      PUSHW[ ]	/* 1 value pushed */
+      513
+      PUSHB[ ]	/* 7 values pushed */
+      31 232 28 187 31 215 32
+      PUSHW[ ]	/* 1 value pushed */
+      1025
+      PUSHB[ ]	/* 3 values pushed */
+      31 213 28
+      PUSHW[ ]	/* 1 value pushed */
+      683
+      PUSHB[ ]	/* 7 values pushed */
+      31 212 28 137 31 201 47
+      PUSHW[ ]	/* 1 value pushed */
+      2049
+      PUSHB[ ]	/* 3 values pushed */
+      31 188 38
+      PUSHW[ ]	/* 1 value pushed */
+      257
+      PUSHB[ ]	/* 3 values pushed */
+      31 186 32
+      PUSHW[ ]	/* 1 value pushed */
+      513
+      PUSHB[ ]	/* 7 values pushed */
+      31 185 28 56 31 173 202
+      PUSHW[ ]	/* 1 value pushed */
+      1025
+      PUSHB[ ]	/* 3 values pushed */
+      31 129 38
+      PUSHW[ ]	/* 1 value pushed */
+      410
+      PUSHB[ ]	/* 3 values pushed */
+      31 126 38
+      PUSHW[ ]	/* 1 value pushed */
+      410
+      PUSHB[ ]	/* 7 values pushed */
+      31 125 28 71 31 107 28
+      PUSHW[ ]	/* 1 value pushed */
+      1025
+      PUSHB[ ]	/* 3 values pushed */
+      31 101 38
+      PUSHW[ ]	/* 1 value pushed */
+      410
+      PUSHB[ ]	/* 3 values pushed */
+      31 94 115
+      PUSHW[ ]	/* 1 value pushed */
+      1025
+      NPUSHB[ ]	/* 15 values pushed */
+      31 82 38 90 31 72 28 137 31 68 28 98 31 64 115
+      PUSHW[ ]	/* 1 value pushed */
+      2049
+      PUSHB[ ]	/* 7 values pushed */
+      31 63 28 94 31 60 38
+      PUSHW[ ]	/* 1 value pushed */
+      410
+      PUSHB[ ]	/* 3 values pushed */
+      31 53 28
+      PUSHW[ ]	/* 1 value pushed */
+      1025
+      PUSHB[ ]	/* 7 values pushed */
+      31 48 28 187 31 43 28
+      PUSHW[ ]	/* 1 value pushed */
+      1025
+      PUSHB[ ]	/* 7 values pushed */
+      31 42 28 86 31 41 28
+      PUSHW[ ]	/* 1 value pushed */
+      257
+      PUSHB[ ]	/* 3 values pushed */
+      31 35 30
+      PUSHW[ ]	/* 1 value pushed */
+      1025
+      PUSHB[ ]	/* 3 values pushed */
+      31 85 55
+      PUSHW[ ]	/* 1 value pushed */
+      360
+      NPUSHB[ ]	/* 44 values pushed */
+      7 150 7 88 7 79 7 54 7 50 7 44 7 33 7 31 7 29 7 27 7 20 8 18 8
+      16 8 14 8 12 8 10 8 8 8 6 8 4 8 2 8 0 8 20
+      PUSHW[ ]	/* 1 value pushed */
+      -32
+      NPUSHB[ ]	/* 43 values pushed */
+      0 0 1 0 20 6 16 0 0 1 0 6 4 0 0 1 0 4 16 0 0 1 0 16 2
+      0 0 1 0 2 0 0 0 1 0 0 2 1 8 2 0 74 0
+      PUSHB[ ]	/* 1 value pushed */
+      19
+      SPVTCA[1]	/* SetPVectorToAxis */
+      MPPEM[ ]	/* MeasurePixelPerEm */
+      SPVTCA[0]	/* SetPVectorToAxis */
+      MPPEM[ ]	/* MeasurePixelPerEm */
+      GTEQ[ ]	/* GreaterThanOrEqual */
+      WS[ ]	/* WriteStore */
+      SVTCA[1]	/* SetFPVectorToAxis */
+      MPPEM[ ]	/* MeasurePixelPerEm */
+      PUSHB[ ]	/* 1 value pushed */
+      192
+      MUL[ ]	/* Multiply */
+      SVTCA[0]	/* SetFPVectorToAxis */
+      MPPEM[ ]	/* MeasurePixelPerEm */
+      DIV[ ]	/* Divide */
+      DUP[ ]	/* DuplicateTopStack */
+      PUSHB[ ]	/* 1 value pushed */
+      246
+      GTEQ[ ]	/* GreaterThanOrEqual */
+      SWAP[ ]	/* SwapTopStack */
+      PUSHW[ ]	/* 1 value pushed */
+      266
+      LTEQ[ ]	/* LessThenOrEqual */
+      AND[ ]	/* LogicalAnd */
+      PUSHB[ ]	/* 1 value pushed */
+      5
+      SWAP[ ]	/* SwapTopStack */
+      WS[ ]	/* WriteStore */
+      SVTCA[1]	/* SetFPVectorToAxis */
+      PUSHB[ ]	/* 1 value pushed */
+      18
+      MPPEM[ ]	/* MeasurePixelPerEm */
+      SVTCA[0]	/* SetFPVectorToAxis */
+      MPPEM[ ]	/* MeasurePixelPerEm */
+      EQ[ ]	/* Equal */
+      WS[ ]	/* WriteStore */
+      PUSHB[ ]	/* 1 value pushed */
+      56
+      CALL[ ]	/* CallFunction */
+      MPPEM[ ]	/* MeasurePixelPerEm */
+      PUSHW[ ]	/* 1 value pushed */
+      2047
+      GT[ ]	/* GreaterThan */
+      PUSHB[ ]	/* 1 value pushed */
+      55
+      CALL[ ]	/* CallFunction */
+      MPPEM[ ]	/* MeasurePixelPerEm */
+      PUSHB[ ]	/* 1 value pushed */
+      7
+      LT[ ]	/* LessThan */
+      OR[ ]	/* LogicalOr */
+      IF[ ]	/* If */
+        PUSHB[ ]	/* 2 values pushed */
+        1 1
+        INSTCTRL[ ]	/* SetInstrExecControl */
+      EIF[ ]	/* EndIf */
+      PUSHB[ ]	/* 1 value pushed */
+      56
+      CALL[ ]	/* CallFunction */
+      PUSHB[ ]	/* 1 value pushed */
+      2
+      GETINFO[ ]	/* GetInfo */
+      PUSHW[ ]	/* 1 value pushed */
+      256
+      EQ[ ]	/* Equal */
+      IF[ ]	/* If */
+        PUSHW[ ]	/* 1 value pushed */
+        511
+        PUSHB[ ]	/* 2 values pushed */
+        1 1
+        INSTCTRL[ ]	/* SetInstrExecControl */
+        SCANCTRL[ ]	/* ScanConversionControl */
+      ELSE[ ]	/* Else */
+        PUSHB[ ]	/* 1 value pushed */
+        18
+        RS[ ]	/* ReadStore */
+        IF[ ]	/* If */
+          PUSHW[ ]	/* 2 values pushed */
+          1 273
+          SCANCTRL[ ]	/* ScanConversionControl */
+          SCANTYPE[ ]	/* ScanType */
+        ELSE[ ]	/* Else */
+          PUSHW[ ]	/* 2 values pushed */
+          1 296
+          SCANCTRL[ ]	/* ScanConversionControl */
+          SCANTYPE[ ]	/* ScanType */
+        EIF[ ]	/* EndIf */
+      EIF[ ]	/* EndIf */
+      SVTCA[0]	/* SetFPVectorToAxis */
+      RTG[ ]	/* RoundToGrid */
+      SZPS[ ]	/* SetZonePointerS */
+      SROUND[ ]	/* SuperRound */
+      MIAP[1]	/* MoveIndirectAbsPt */
+      RTG[ ]	/* RoundToGrid */
+      MIAP[1]	/* MoveIndirectAbsPt */
+      SRP2[ ]	/* SetRefPoint2 */
+      MIAP[0]	/* MoveIndirectAbsPt */
+      SRP1[ ]	/* SetRefPoint1 */
+      IP[ ]	/* InterpolatePts */
+      GC[0]	/* GetCoordOnPVector */
+      WCVTP[ ]	/* WriteCVTInPixels */
+      MIAP[0]	/* MoveIndirectAbsPt */
+      SRP1[ ]	/* SetRefPoint1 */
+      IP[ ]	/* InterpolatePts */
+      GC[0]	/* GetCoordOnPVector */
+      WCVTP[ ]	/* WriteCVTInPixels */
+      MIAP[0]	/* MoveIndirectAbsPt */
+      SRP1[ ]	/* SetRefPoint1 */
+      IP[ ]	/* InterpolatePts */
+      GC[0]	/* GetCoordOnPVector */
+      WCVTP[ ]	/* WriteCVTInPixels */
+      MIAP[0]	/* MoveIndirectAbsPt */
+      SRP1[ ]	/* SetRefPoint1 */
+      IP[ ]	/* InterpolatePts */
+      GC[0]	/* GetCoordOnPVector */
+      WCVTP[ ]	/* WriteCVTInPixels */
+      MIAP[0]	/* MoveIndirectAbsPt */
+      SRP1[ ]	/* SetRefPoint1 */
+      IP[ ]	/* InterpolatePts */
+      GC[0]	/* GetCoordOnPVector */
+      ADD[ ]	/* Add */
+      WCVTP[ ]	/* WriteCVTInPixels */
+      MIAP[0]	/* MoveIndirectAbsPt */
+      SRP1[ ]	/* SetRefPoint1 */
+      IP[ ]	/* InterpolatePts */
+      GC[0]	/* GetCoordOnPVector */
+      ADD[ ]	/* Add */
+      WCVTP[ ]	/* WriteCVTInPixels */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      RTG[ ]	/* RoundToGrid */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      RTG[ ]	/* RoundToGrid */
+      CALL[ ]	/* CallFunction */
+      SCVTCI[ ]	/* SetCVTCutIn */
+      PUSHB[ ]	/* 1 value pushed */
+      150
+      MPPEM[ ]	/* MeasurePixelPerEm */
+      GTEQ[ ]	/* GreaterThanOrEqual */
+      IF[ ]	/* If */
+        PUSHB[ ]	/* 1 value pushed */
+        170
+        SCVTCI[ ]	/* SetCVTCutIn */
+      EIF[ ]	/* EndIf */
+      PUSHB[ ]	/* 1 value pushed */
+      50
+      MPPEM[ ]	/* MeasurePixelPerEm */
+      GTEQ[ ]	/* GreaterThanOrEqual */
+      IF[ ]	/* If */
+        PUSHB[ ]	/* 1 value pushed */
+        255
+        SCVTCI[ ]	/* SetCVTCutIn */
+      EIF[ ]	/* EndIf */
+      MPPEM[ ]	/* MeasurePixelPerEm */
+      PUSHB[ ]	/* 1 value pushed */
+      147
+      GTEQ[ ]	/* GreaterThanOrEqual */
+      DUP[ ]	/* DuplicateTopStack */
+      NOT[ ]	/* LogicalNot */
+      IF[ ]	/* If */
+        PUSHW[ ]	/* 2 values pushed */
+        498 496
+        RCVT[ ]	/* ReadCVT */
+        WCVTP[ ]	/* WriteCVTInPixels */
+        PUSHW[ ]	/* 2 values pushed */
+        497 496
+        RCVT[ ]	/* ReadCVT */
+        WCVTP[ ]	/* WriteCVTInPixels */
+      EIF[ ]	/* EndIf */
+      IF[ ]	/* If */
+        PUSHW[ ]	/* 2 values pushed */
+        830 498
+        RCVT[ ]	/* ReadCVT */
+        GT[ ]	/* GreaterThan */
+        IF[ ]	/* If */
+          PUSHW[ ]	/* 2 values pushed */
+          498 830
+          WCVTP[ ]	/* WriteCVTInPixels */
+        EIF[ ]	/* EndIf */
+      EIF[ ]	/* EndIf */
+      MPPEM[ ]	/* MeasurePixelPerEm */
+      PUSHW[ ]	/* 1 value pushed */
+      342
+      GTEQ[ ]	/* GreaterThanOrEqual */
+      DUP[ ]	/* DuplicateTopStack */
+      NOT[ ]	/* LogicalNot */
+      IF[ ]	/* If */
+        PUSHW[ ]	/* 2 values pushed */
+        32 497
+        RCVT[ ]	/* ReadCVT */
+        WCVTP[ ]	/* WriteCVTInPixels */
+        PUSHW[ ]	/* 2 values pushed */
+        38 497
+        RCVT[ ]	/* ReadCVT */
+        WCVTP[ ]	/* WriteCVTInPixels */
+      EIF[ ]	/* EndIf */
+      IF[ ]	/* If */
+        PUSHW[ ]	/* 2 values pushed */
+        2078 32
+        RCVT[ ]	/* ReadCVT */
+        GT[ ]	/* GreaterThan */
+        IF[ ]	/* If */
+          PUSHW[ ]	/* 2 values pushed */
+          32 2078
+          WCVTP[ ]	/* WriteCVTInPixels */
+        EIF[ ]	/* EndIf */
+      EIF[ ]	/* EndIf */
+      MPPEM[ ]	/* MeasurePixelPerEm */
+      PUSHW[ ]	/* 1 value pushed */
+      410
+      GTEQ[ ]	/* GreaterThanOrEqual */
+      DUP[ ]	/* DuplicateTopStack */
+      NOT[ ]	/* LogicalNot */
+      IF[ ]	/* If */
+        PUSHW[ ]	/* 2 values pushed */
+        37 498
+        RCVT[ ]	/* ReadCVT */
+        WCVTP[ ]	/* WriteCVTInPixels */
+        PUSHW[ ]	/* 2 values pushed */
+        36 498
+        RCVT[ ]	/* ReadCVT */
+        WCVTP[ ]	/* WriteCVTInPixels */
+      EIF[ ]	/* EndIf */
+      IF[ ]	/* If */
+        PUSHW[ ]	/* 2 values pushed */
+        2313 37
+        RCVT[ ]	/* ReadCVT */
+        GT[ ]	/* GreaterThan */
+        IF[ ]	/* If */
+          PUSHW[ ]	/* 2 values pushed */
+          37 2313
+          WCVTP[ ]	/* WriteCVTInPixels */
+        EIF[ ]	/* EndIf */
+      EIF[ ]	/* EndIf */
+      MPPEM[ ]	/* MeasurePixelPerEm */
+      PUSHW[ ]	/* 1 value pushed */
+      1025
+      GTEQ[ ]	/* GreaterThanOrEqual */
+      DUP[ ]	/* DuplicateTopStack */
+      NOT[ ]	/* LogicalNot */
+      IF[ ]	/* If */
+        PUSHB[ ]	/* 2 values pushed */
+        115 36
+        RCVT[ ]	/* ReadCVT */
+        WCVTP[ ]	/* WriteCVTInPixels */
+        PUSHB[ ]	/* 2 values pushed */
+        36 36
+        RCVT[ ]	/* ReadCVT */
+        WCVTP[ ]	/* WriteCVTInPixels */
+      EIF[ ]	/* EndIf */
+      IF[ ]	/* If */
+        PUSHW[ ]	/* 2 values pushed */
+        5920 115
+        RCVT[ ]	/* ReadCVT */
+        GT[ ]	/* GreaterThan */
+        IF[ ]	/* If */
+          PUSHW[ ]	/* 2 values pushed */
+          115 5920
+          WCVTP[ ]	/* WriteCVTInPixels */
+        EIF[ ]	/* EndIf */
+      EIF[ ]	/* EndIf */
+      MPPEM[ ]	/* MeasurePixelPerEm */
+      PUSHW[ ]	/* 1 value pushed */
+      1025
+      GTEQ[ ]	/* GreaterThanOrEqual */
+      DUP[ ]	/* DuplicateTopStack */
+      NOT[ ]	/* LogicalNot */
+      IF[ ]	/* If */
+        PUSHB[ ]	/* 2 values pushed */
+        202 37
+        RCVT[ ]	/* ReadCVT */
+        WCVTP[ ]	/* WriteCVTInPixels */
+        PUSHB[ ]	/* 2 values pushed */
+        37 37
+        RCVT[ ]	/* ReadCVT */
+        WCVTP[ ]	/* WriteCVTInPixels */
+      EIF[ ]	/* EndIf */
+      IF[ ]	/* If */
+        PUSHW[ ]	/* 2 values pushed */
+        5760 202
+        RCVT[ ]	/* ReadCVT */
+        GT[ ]	/* GreaterThan */
+        IF[ ]	/* If */
+          PUSHW[ ]	/* 2 values pushed */
+          202 5760
+          WCVTP[ ]	/* WriteCVTInPixels */
+        EIF[ ]	/* EndIf */
+      EIF[ ]	/* EndIf */
+      MPPEM[ ]	/* MeasurePixelPerEm */
+      PUSHB[ ]	/* 1 value pushed */
+      62
+      GTEQ[ ]	/* GreaterThanOrEqual */
+      DUP[ ]	/* DuplicateTopStack */
+      NOT[ ]	/* LogicalNot */
+      IF[ ]	/* If */
+        PUSHB[ ]	/* 2 values pushed */
+        28 28
+        RCVT[ ]	/* ReadCVT */
+        WCVTP[ ]	/* WriteCVTInPixels */
+        PUSHB[ ]	/* 2 values pushed */
+        30 28
+        RCVT[ ]	/* ReadCVT */
+        WCVTP[ ]	/* WriteCVTInPixels */
+      EIF[ ]	/* EndIf */
+      IF[ ]	/* If */
+        PUSHW[ ]	/* 2 values pushed */
+        282 28
+        RCVT[ ]	/* ReadCVT */
+        GT[ ]	/* GreaterThan */
+        IF[ ]	/* If */
+          PUSHW[ ]	/* 2 values pushed */
+          28 282
+          WCVTP[ ]	/* WriteCVTInPixels */
+        EIF[ ]	/* EndIf */
+      EIF[ ]	/* EndIf */
+      MPPEM[ ]	/* MeasurePixelPerEm */
+      PUSHB[ ]	/* 1 value pushed */
+      86
+      GTEQ[ ]	/* GreaterThanOrEqual */
+      DUP[ ]	/* DuplicateTopStack */
+      NOT[ ]	/* LogicalNot */
+      IF[ ]	/* If */
+        PUSHB[ ]	/* 2 values pushed */
+        28 28
+        RCVT[ ]	/* ReadCVT */
+        WCVTP[ ]	/* WriteCVTInPixels */
+        PUSHB[ ]	/* 2 values pushed */
+        47 28
+        RCVT[ ]	/* ReadCVT */
+        WCVTP[ ]	/* WriteCVTInPixels */
+      EIF[ ]	/* EndIf */
+      IF[ ]	/* If */
+        PUSHW[ ]	/* 2 values pushed */
+        393 28
+        RCVT[ ]	/* ReadCVT */
+        GT[ ]	/* GreaterThan */
+        IF[ ]	/* If */
+          PUSHW[ ]	/* 2 values pushed */
+          28 393
+          WCVTP[ ]	/* WriteCVTInPixels */
+        EIF[ ]	/* EndIf */
+      EIF[ ]	/* EndIf */
+      MPPEM[ ]	/* MeasurePixelPerEm */
+      PUSHW[ ]	/* 1 value pushed */
+      769
+      GTEQ[ ]	/* GreaterThanOrEqual */
+      DUP[ ]	/* DuplicateTopStack */
+      NOT[ ]	/* LogicalNot */
+      IF[ ]	/* If */
+        PUSHB[ ]	/* 2 values pushed */
+        28 28
+        RCVT[ ]	/* ReadCVT */
+        WCVTP[ ]	/* WriteCVTInPixels */
+        PUSHB[ ]	/* 2 values pushed */
+        28 28
+        RCVT[ ]	/* ReadCVT */
+        WCVTP[ ]	/* WriteCVTInPixels */
+      EIF[ ]	/* EndIf */
+      IF[ ]	/* If */
+        PUSHW[ ]	/* 2 values pushed */
+        3552 28
+        RCVT[ ]	/* ReadCVT */
+        GT[ ]	/* GreaterThan */
+        IF[ ]	/* If */
+          PUSHW[ ]	/* 2 values pushed */
+          28 3552
+          WCVTP[ ]	/* WriteCVTInPixels */
+        EIF[ ]	/* EndIf */
+      EIF[ ]	/* EndIf */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      NEG[ ]	/* Negate */
+      WS[ ]	/* WriteStore */
+      CALL[ ]	/* CallFunction */
+      CALL[ ]	/* CallFunction */
+      SVTCA[1]	/* SetFPVectorToAxis */
+      PUSHB[ ]	/* 4 values pushed */
+      59 89 99 92
+      RCVT[ ]	/* ReadCVT */
+      NEG[ ]	/* Negate */
+      SWAP[ ]	/* SwapTopStack */
+      RCVT[ ]	/* ReadCVT */
+      ADD[ ]	/* Add */
+      SWAP[ ]	/* SwapTopStack */
+      RCVT[ ]	/* ReadCVT */
+      NEG[ ]	/* Negate */
+      ADD[ ]	/* Add */
+      SWAP[ ]	/* SwapTopStack */
+      RCVT[ ]	/* ReadCVT */
+      ADD[ ]	/* Add */
+      PUSHB[ ]	/* 1 value pushed */
+      139
+      SROUND[ ]	/* SuperRound */
+      ROUND[00]	/* Round */
+      RTG[ ]	/* RoundToGrid */
+      PUSHB[ ]	/* 1 value pushed */
+      128
+      DIV[ ]	/* Divide */
+      DUP[ ]	/* DuplicateTopStack */
+      DUP[ ]	/* DuplicateTopStack */
+      PUSHB[ ]	/* 2 values pushed */
+      99 89
+      RCVT[ ]	/* ReadCVT */
+      NEG[ ]	/* Negate */
+      SWAP[ ]	/* SwapTopStack */
+      RCVT[ ]	/* ReadCVT */
+      DUP[ ]	/* DuplicateTopStack */
+      PUSHB[ ]	/* 1 value pushed */
+      3
+      MINDEX[ ]	/* MoveXToTopStack */
+      ADD[ ]	/* Add */
+      DIV[ ]	/* Divide */
+      MUL[ ]	/* Multiply */
+      ROUND[00]	/* Round */
+      DUP[ ]	/* DuplicateTopStack */
+      PUSHB[ ]	/* 1 value pushed */
+      3
+      MINDEX[ ]	/* MoveXToTopStack */
+      SUB[ ]	/* Subtract */
+      NEG[ ]	/* Negate */
+      PUSHB[ ]	/* 1 value pushed */
+      89
+      SWAP[ ]	/* SwapTopStack */
+      NEG[ ]	/* Negate */
+      WCVTP[ ]	/* WriteCVTInPixels */
+      PUSHB[ ]	/* 1 value pushed */
+      99
+      SWAP[ ]	/* SwapTopStack */
+      WCVTP[ ]	/* WriteCVTInPixels */
+      DUP[ ]	/* DuplicateTopStack */
+      PUSHB[ ]	/* 2 values pushed */
+      59 92
+      RCVT[ ]	/* ReadCVT */
+      NEG[ ]	/* Negate */
+      SWAP[ ]	/* SwapTopStack */
+      RCVT[ ]	/* ReadCVT */
+      DUP[ ]	/* DuplicateTopStack */
+      PUSHB[ ]	/* 1 value pushed */
+      3
+      MINDEX[ ]	/* MoveXToTopStack */
+      ADD[ ]	/* Add */
+      DIV[ ]	/* Divide */
+      MUL[ ]	/* Multiply */
+      ROUND[00]	/* Round */
+      DUP[ ]	/* DuplicateTopStack */
+      PUSHB[ ]	/* 1 value pushed */
+      3
+      MINDEX[ ]	/* MoveXToTopStack */
+      SUB[ ]	/* Subtract */
+      NEG[ ]	/* Negate */
+      PUSHB[ ]	/* 1 value pushed */
+      92
+      SWAP[ ]	/* SwapTopStack */
+      NEG[ ]	/* Negate */
+      WCVTP[ ]	/* WriteCVTInPixels */
+      PUSHB[ ]	/* 1 value pushed */
+      59
+      SWAP[ ]	/* SwapTopStack */
+      WCVTP[ ]	/* WriteCVTInPixels */
+      PUSHB[ ]	/* 2 values pushed */
+      0 92
+      RCVT[ ]	/* ReadCVT */
+      EQ[ ]	/* Equal */
+      IF[ ]	/* If */
+        PUSHB[ ]	/* 2 values pushed */
+        92 64
+        NEG[ ]	/* Negate */
+        WCVTP[ ]	/* WriteCVTInPixels */
+        PUSHB[ ]	/* 3 values pushed */
+        59 64 59
+        RCVT[ ]	/* ReadCVT */
+        SWAP[ ]	/* SwapTopStack */
+        SUB[ ]	/* Subtract */
+        WCVTP[ ]	/* WriteCVTInPixels */
+      EIF[ ]	/* EndIf */
+      PUSHB[ ]	/* 4 values pushed */
+      71 80 52 55
+      RCVT[ ]	/* ReadCVT */
+      NEG[ ]	/* Negate */
+      SWAP[ ]	/* SwapTopStack */
+      RCVT[ ]	/* ReadCVT */
+      ADD[ ]	/* Add */
+      SWAP[ ]	/* SwapTopStack */
+      RCVT[ ]	/* ReadCVT */
+      NEG[ ]	/* Negate */
+      ADD[ ]	/* Add */
+      SWAP[ ]	/* SwapTopStack */
+      RCVT[ ]	/* ReadCVT */
+      ADD[ ]	/* Add */
+      PUSHB[ ]	/* 1 value pushed */
+      137
+      SROUND[ ]	/* SuperRound */
+      ROUND[00]	/* Round */
+      RTG[ ]	/* RoundToGrid */
+      PUSHB[ ]	/* 1 value pushed */
+      128
+      DIV[ ]	/* Divide */
+      DUP[ ]	/* DuplicateTopStack */
+      DUP[ ]	/* DuplicateTopStack */
+      PUSHB[ ]	/* 2 values pushed */
+      52 80
+      RCVT[ ]	/* ReadCVT */
+      NEG[ ]	/* Negate */
+      SWAP[ ]	/* SwapTopStack */
+      RCVT[ ]	/* ReadCVT */
+      DUP[ ]	/* DuplicateTopStack */
+      PUSHB[ ]	/* 1 value pushed */
+      3
+      MINDEX[ ]	/* MoveXToTopStack */
+      ADD[ ]	/* Add */
+      DIV[ ]	/* Divide */
+      MUL[ ]	/* Multiply */
+      ROUND[00]	/* Round */
+      DUP[ ]	/* DuplicateTopStack */
+      PUSHB[ ]	/* 1 value pushed */
+      3
+      MINDEX[ ]	/* MoveXToTopStack */
+      SUB[ ]	/* Subtract */
+      NEG[ ]	/* Negate */
+      PUSHB[ ]	/* 1 value pushed */
+      80
+      SWAP[ ]	/* SwapTopStack */
+      NEG[ ]	/* Negate */
+      WCVTP[ ]	/* WriteCVTInPixels */
+      PUSHB[ ]	/* 1 value pushed */
+      52
+      SWAP[ ]	/* SwapTopStack */
+      WCVTP[ ]	/* WriteCVTInPixels */
+      DUP[ ]	/* DuplicateTopStack */
+      PUSHB[ ]	/* 2 values pushed */
+      71 55
+      RCVT[ ]	/* ReadCVT */
+      NEG[ ]	/* Negate */
+      SWAP[ ]	/* SwapTopStack */
+      RCVT[ ]	/* ReadCVT */
+      DUP[ ]	/* DuplicateTopStack */
+      PUSHB[ ]	/* 1 value pushed */
+      3
+      MINDEX[ ]	/* MoveXToTopStack */
+      ADD[ ]	/* Add */
+      DIV[ ]	/* Divide */
+      MUL[ ]	/* Multiply */
+      ROUND[00]	/* Round */
+      DUP[ ]	/* DuplicateTopStack */
+      PUSHB[ ]	/* 1 value pushed */
+      3
+      MINDEX[ ]	/* MoveXToTopStack */
+      SUB[ ]	/* Subtract */
+      NEG[ ]	/* Negate */
+      PUSHB[ ]	/* 1 value pushed */
+      55
+      SWAP[ ]	/* SwapTopStack */
+      NEG[ ]	/* Negate */
+      WCVTP[ ]	/* WriteCVTInPixels */
+      PUSHB[ ]	/* 1 value pushed */
+      71
+      SWAP[ ]	/* SwapTopStack */
+      WCVTP[ ]	/* WriteCVTInPixels */
+      PUSHB[ ]	/* 2 values pushed */
+      0 55
+      RCVT[ ]	/* ReadCVT */
+      EQ[ ]	/* Equal */
+      IF[ ]	/* If */
+        PUSHB[ ]	/* 2 values pushed */
+        55 64
+        NEG[ ]	/* Negate */
+        WCVTP[ ]	/* WriteCVTInPixels */
+        PUSHB[ ]	/* 3 values pushed */
+        71 64 71
+        RCVT[ ]	/* ReadCVT */
+        SWAP[ ]	/* SwapTopStack */
+        SUB[ ]	/* Subtract */
+        WCVTP[ ]	/* WriteCVTInPixels */

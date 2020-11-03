@@ -11,9 +11,14 @@ from time import localtime
 
 _get = get
 logger = logging.Logger("main")
-handler = logging.FileHandler(f"logs/{localtime().tm_year}-{localtime().tm_min}-{localtime().tm_min}.log",
+handler = logging.FileHandler(f"logs/"
+                              f"{localtime().tm_year}-"
+                              f"{localtime().tm_mon}-"
+                              f"{localtime().tm_mday}-"
+                              f"{localtime().tm_min}-"
+                              f"{localtime().tm_min}.log",
                               encoding="utf-8")
-formatter = logging.Formatter("%(levelname)s-%(levelno)s行-%(message)s")
+formatter = logging.Formatter("[%(levelname)s]-[%(levelno)s行]-%(message)s")
 handler.setFormatter(formatter)
 logger.addHandler(handler)
 
@@ -103,9 +108,12 @@ def get_detailed_info(novel_url) -> dict:
     try:
         # 先用老api, 在尝试新api
         # 老api, 喜欢报错
+        logger.debug("使用老api")
         chapter_counts = translate(html.xpath("//span[@id='J-catalogCount']/text()")[0], mapping_table)
-    except:
-        chapter_counts = translate(get(f"https://book.qidian.com/ajax/book/catagory?bookId={novel_id}",
+    except Exception as e:
+        logger.debug("老api出错 使用新api 原因:")
+        logger.exception(e, stacklevel=logging.DEBUG)
+        chapter_counts = translate(get(f"https://book.qidian.com/ajax/book/category?bookId={novel_id}",
                                        headers=get_headers()).json()["data"]["chapterTotalCnt"], mapping_table)
 
     # 把数据添加到item
@@ -201,7 +209,6 @@ def _main(chan_id, sub_cata_id, headers=None, timeout=None, outfile="out.json"):
     TIMEOUT = timeout
     HEADERS = headers
     OUTFILE = outfile
-    print(TIMEOUT, HEADERS, OUTFILE)
     for i in range(1, 3):
         _spider(chan_id, sub_cata_id, str(i))
 
@@ -221,8 +228,13 @@ def main():
 @click.option("--timeout", "-t", default=15.0, help="设置请求超时时间")
 @click.option("--outfile", "-o", default="out.json", help="设置输出文件")
 @click.option("--fromfile", "-f", help="从文件加载数据")
-def spider(chan_id, sub_cata_id, headers=None, timeout=None, outfile="out.json", fromfile=None):
+@click.option("--debug", "-d", help="启用调试", default=False)
+def spider(chan_id, sub_cata_id, headers=None, timeout=None, outfile="out.json", fromfile=None, debug=False):
     """爬取大类chan_id, 小类sub_cata_id下的所有数据"""
+    if debug:
+        logger.setLevel(logging.DEBUG)
+        console.setLevel(logging.DEBUG)
+    logger.debug(f"[接受参数]: {TIMEOUT}, {HEADERS}, {OUTFILE}, {debug}")
     if not fromfile:
         _main(chan_id, sub_cata_id, headers, timeout, outfile)
         return
@@ -240,5 +252,8 @@ if __name__ == '__main__':
     # r = get_detailed_info("https://book.qidian.com/info/1115277")
     # r = get("http://www.baidu.com")
     # logger.info(r)
-    main()
-    outfile.close()
+    # main()
+    # outfile.close()
+
+    r = get_detailed_info("https://book.qidian.com/info/1003306811")
+    print(r)
