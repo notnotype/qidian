@@ -26,7 +26,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
-软件
+/软件
 logs/*
 /*.zip
 /*.7z

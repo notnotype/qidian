@@ -15,8 +15,8 @@ handler = logging.FileHandler(f"logs/"
                               f"{localtime().tm_year}-"
                               f"{localtime().tm_mon}-"
                               f"{localtime().tm_mday}-"
-                              f"{localtime().tm_min}-"
-                              f"{localtime().tm_min}.log",
+                              f"{localtime().tm_min}:"
+                              f"{localtime().tm_sec}.log",
                               encoding="utf-8")
 formatter = logging.Formatter("[%(levelname)-5.5s][%(funcName)-7.7s][%(lineno)3.3d行]-%(message)s")
 handler.setFormatter(formatter)
@@ -171,7 +171,7 @@ def _spider(chan_id, sub_cata_id, page):
         # 最后一章
         last_chapter = tr[2][0].xpath("./text()")[0]
         # 字数
-        # todo 添加单位
+        # done 添加单位
         '''
             <span class="total" xpath="1">
                 <style>@font-face { font-family: sCAWJsOr; src: url('https://qidian.gtimg.com/qd_anti_spider/sCAWJsOr.eot?') format('eot'); src: url('https://qidian.gtimg.com/qd_anti_spider/sCAWJsOr.woff') format('woff'), url('https://qidian.gtimg.com/qd_anti_spider/sCAWJsOr.ttf') format('truetype'); } .sCAWJsOr { font-family: 'sCAWJsOr' !important;     display: initial !important; color: inherit !important; vertical-align: initial !important; }</style>
@@ -224,12 +224,12 @@ def main():
 
 # click spider命令
 @click.command()
-@click.option("--chan-id", "-ci", prompt="输入大类id", help="大类id")
-@click.option("--sub-cata-id", "-sci", prompt="输入小类id", help="小类id")
+@click.option("--chan-id", "-ci", help="大类id")
+@click.option("--sub-cata-id", "-sci", help="小类id")
 @click.option("--headers", "-h", help="携带请求头文件", type=click.File())
 @click.option("--timeout", "-t", default=15.0, help="设置请求超时时间")
 @click.option("--outfile", "-o", default="out.json", help="设置输出文件")
-@click.option("--fromfile", "-f", help="从文件加载数据继续爬取")
+@click.option("--fromfile", "-f", help="从文件加载数据继续爬取", type=click.File(), is_eager=True)
 @click.option("--debug", "-d", help="启用调试", type=click.BOOL, default=False)
 def spider(chan_id, sub_cata_id, headers, timeout, outfile, fromfile, debug):
     """爬取大类chan_id, 小类sub_cata_id下的所有数据"""

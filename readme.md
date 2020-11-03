@@ -1,9 +1,11 @@
 # 起点网爬虫
 
 ### 使用方法
+
 > 快速开始
 
 > 如果你是有经验的人, 那么你只需要看这里就可以了
+
 进入项目文件夹输入一下命令
 ```
 pip install -r requirements.txt
@@ -23,17 +25,19 @@ Usage: main.py spider [OPTIONS]
   爬取大类chan_id, 小类sub_cata_id下的所有数据
 
 Options:
-  --chan-id TEXT      大类id
-  --sub-cata-id TEXT  小类id
-  --headers TEXT      携带请求头
-  --timeout FLOAT     设置请求超时时间
-  --outfile TEXT      设置输出文件
-  --fromfile TEXT     从文件加载数据
-  --help              Show this message and exit.
+  -ci, --chan-id TEXT       大类id
+  -sci, --sub-cata-id TEXT  小类id
+  -h, --headers FILENAME    携带请求头文件
+  -t, --timeout FLOAT       设置请求超时时间
+  -o, --outfile TEXT        设置输出文件
+  -f, --fromfile TEXT       从文件加载数据继续爬取
+  -d, --debug BOOLEAN       启用调试(更加详细)
+  --help                    Show this message and exit.
 
 ```
 
 ### 环境的搭建
+
 请务必完成了这一步后在继续
 * 安装python
 * 安装python模块
@@ -41,10 +45,12 @@ Options:
 ##### 安装环境
 
 -  运行软件目录下的`python`安装包,安装好`python`解释器
+
 - 输入`win键 + r键` 输入`cmd`进入命令行, 然后进入项目文件夹, 然后输入以下命令来安装依赖
 ```
 pip install -r requirements.txt
 ```
+
 - 检测环境是否搭建成功 输入以下命令 如果结果为一下结构, 则搭建成功
 ```
 > python --version
@@ -52,6 +58,49 @@ Python 3.8.2
 ```
 
 
-###### 文件夹文件解释
-![文件夹结构](文档/图片/文件夹结构.png)
+##### 文件夹文件解释
 
+![文件夹结构](文档/图片/文件夹结构.png)
+你看到的软件目录大体就是这个结构的
+
+### 例子
+
+爬取`玄幻``异世大陆`分类下的的所有小说, 保存数据到`21-73.json`中
+
+##### 第一步: 获取主分类id, 和次分类id
+看这个网址
+
+`https://www.qidian.com/all?chanId=21&subCateId=73&orderId=&page=1&style=2&pageSize=50&siteid=1&pubflag=0&hiddenField=0qi`
+
+- `chanId=21`是主分类
+- `subCateId=73`是次分类
+- `page=1`是第几页
+
+我们只要主分类,和次分类就可以用了
+```
+python main.py spider -ci 21 -csi 73 -o 21-73.json
+```
+
+### 高阶用法 `从文件读取要爬的位置`
+> 从文件读取要爬的位置
+   
+```
+python main.py spider -f in.json
+```
+
+in.json的内容
+```
+1 1
+2 62
+21 73
+```
+每一行有这样的格式
+```
+主类id 次类id
+```
+以上命令相当于一下命令
+```
+python main.py spider -ci 1 -csi 1 -o out.json
+python main.py spider -ci 2 -csi 62 -o out.json
+python main.py spider -ci 21 -csi 73 -o out.json
+```
