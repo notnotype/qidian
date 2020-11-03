@@ -18,18 +18,20 @@ handler = logging.FileHandler(f"logs/"
                               f"{localtime().tm_min}-"
                               f"{localtime().tm_min}.log",
                               encoding="utf-8")
-formatter = logging.Formatter("[%(levelname)s]-[%(levelno)s行]-%(message)s")
+formatter = logging.Formatter("[{levelname}][%(funcName)-7.7s][%(lineno)d行]-%(message)s")
 handler.setFormatter(formatter)
 logger.addHandler(handler)
 
 console = logging.StreamHandler()
 console.setLevel(logging.INFO)
+console.setFormatter(formatter)
 
 logger.addHandler(handler)
 logger.addHandler(console)
 
-TIMEOUT = None
-HEADERS = ""
+TIMEOUT = 10
+HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chr"
+                          "ome/86.0.4240.111 Safari/537.36"}
 OUTFILE = "out.json"
 
 
@@ -40,8 +42,8 @@ def get(*args, **kwargs):
         try:
             if TIMEOUT:
                 kwargs["timeout"] = TIMEOUT
-            if HEADERS:
-                kwargs["headers"] = loads(HEADERS.replace("'", "\""))
+            if "headers" not in kwargs:
+                kwargs["headers"] = get_headers()
             logger.info("[获取网页] {}".format(args[0]))
             return _get(*args, **kwargs)
         except Exception as e:
@@ -51,8 +53,7 @@ def get(*args, **kwargs):
 
 
 def get_headers():
-    return {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chr"
-                          "ome/86.0.4240.111 Safari/537.36"}
+    return HEADERS
 
 
 def get_api(chan_id, sub_cata_id, page):
@@ -202,7 +203,7 @@ def _spider(chan_id, sub_cata_id, page):
 
 
 # 主逻辑
-def _main(chan_id, sub_cata_id, headers=None, timeout=None, outfile="out.json"):
+def _main(chan_id, sub_cata_id, headers, timeout, outfile):
     global TIMEOUT
     global HEADERS
     global OUTFILE
@@ -224,25 +225,45 @@ def main():
 @click.command()
 @click.option("--chan-id", "-ci", prompt="输入大类id", help="大类id")
 @click.option("--sub-cata-id", "-sci", prompt="输入小类id", help="小类id")
-@click.option("--headers", "-h", help="携带请求头")
+@click.option("--headers", "-h", help="携带请求头文件", type=click.File())
 @click.option("--timeout", "-t", default=15.0, help="设置请求超时时间")
 @click.option("--outfile", "-o", default="out.json", help="设置输出文件")
-@click.option("--fromfile", "-f", help="从文件加载数据")
-@click.option("--debug", "-d", help="启用调试", default=False)
-def spider(chan_id, sub_cata_id, headers=None, timeout=None, outfile="out.json", fromfile=None, debug=False):
+@click.option("--fromfile", "-f", help="从文件加载数据继续爬取")
+@click.option("--debug", "-d", help="启用调试", type=click.BOOL, default=False)
+def spider(chan_id, sub_cata_id, headers, timeout, outfile, fromfile, debug):
     """爬取大类chan_id, 小类sub_cata_id下的所有数据"""
+    logger.debug("debug: " + str(debug))
     if debug:
         logger.setLevel(logging.DEBUG)
         console.setLevel(logging.DEBUG)
-    logger.debug(f"[接受参数]: {TIMEOUT}, {HEADERS}, {OUTFILE}, {debug}")
+        handler.setLevel(logging.DEBUG)
+        logger.addHandler(handler)
+        logger.addHandler(console)
+        logger.debug("[调试模式] 启动")
+    logger.debug(f"[接受参数]: "
+                 f"[chan_id]: [{chan_id}], "
+                 f"[sub_cata_id]: [{sub_cata_id}], "
+                 f"[outfile]: [{outfile}], "
+                 f"[fromfile]: [{fromfile}], "
+                 f"[timeout]: [{timeout}], "
+                 f"[headers]: [{headers}], "
+                 f"[outfile]: [{outfile}], "
+                 f"[debug]: [{debug}]"
+                 )
+
+    # 如果有头文件则加载头文件
+    if headers:
+        global HEADERS
+        HEADERS = headers.read()
+
+    # 选择是否从文件爬取
     if not fromfile:
         _main(chan_id, sub_cata_id, headers, timeout, outfile)
         return
     else:
-        with open(fromfile, "r") as f:
-            for line in f:
-                a, b = line.split(" ")
-                _main(a.strip(), b.strip(), headers, timeout, outfile)
+        for line in fromfile:
+            a, b = line.split(" ")
+            _main(a.strip(), b.strip(), headers, timeout, outfile)
 
 
 main.add_command(spider)
@@ -252,8 +273,8 @@ if __name__ == '__main__':
     # r = get_detailed_info("https://book.qidian.com/info/1115277")
     # r = get("http://www.baidu.com")
     # logger.info(r)
-    # main()
+    main()
     # outfile.close()
 
-    r = get_detailed_info("https://book.qidian.com/info/1003306811")
-    print(r)
+    # r = get_detailed_info("https://book.qidian.com/info/1003306811")
+    # print(r)
