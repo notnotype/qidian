@@ -32,7 +32,7 @@ logger.addHandler(console)
 TIMEOUT = 10
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chr"
                          "ome/86.0.4240.111 Safari/537.36"}
-OUTFILE = "out.json"
+OUTFILE = f"out/{localtime().tm_year}-{localtime().tm_mon}-{localtime().tm_mday}-{localtime().tm_min}-{localtime().tm_sec}.out.json"
 
 
 # 包装get方法
@@ -219,6 +219,7 @@ def _main(chan_id, sub_cata_id, headers, timeout, outfile):
 # click组
 @click.group()
 def main():
+    """尝试输入`python main.py spider --help`来获取帮助"""
     pass
 
 
@@ -229,10 +230,15 @@ def main():
 @click.option("--headers", "-h", help="携带请求头文件", type=click.File())
 @click.option("--timeout", "-t", default=15.0, help="设置请求超时时间")
 @click.option("--outfile", "-o", default="out.json", help="设置输出文件")
-@click.option("--fromfile", "-f", help="从文件加载数据继续爬取", type=click.File(), is_eager=True)
+@click.option("--fromfile", "-f", help="从文件加载数据继续爬取", type=click.File())
 @click.option("--debug", "-d", help="启用调试", type=click.BOOL, default=False)
 def spider(chan_id, sub_cata_id, headers, timeout, outfile, fromfile, debug):
-    """爬取大类chan_id, 小类sub_cata_id下的所有数据"""
+    """爬取大类chan_id, 小类sub_cata_id下的所有数据   尝试输入`python main.py spider --help`来获取帮助"""
+    if not fromfile and not chan_id and sub_cata_id:
+        ctx_help = click.get_current_context().get_help()
+        click.echo("\缺失参数: 大类id, 小类id\n")
+        click.echo(ctx_help)
+        exit(0)
     global TIMEOUT
     global HEADERS
     global OUTFILE
@@ -279,12 +285,5 @@ def spider(chan_id, sub_cata_id, headers, timeout, outfile, fromfile, debug):
 main.add_command(spider)
 if __name__ == '__main__':
     outfile = OutFile(OUTFILE)
-    # r = spider()
-    # r = get_detailed_info("https://book.qidian.com/info/1115277")
-    # r = get("http://www.baidu.com")
-    # logger.info(r)
     main()
-    # outfile.close()
 
-    # r = get_detailed_info("https://book.qidian.com/info/1003306811")
-    # print(r)
