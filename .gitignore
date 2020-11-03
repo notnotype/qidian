@@ -28,6 +28,9 @@ share/python-wheels/
 MANIFEST
 软件
 logs/*
+*.zip
+*.7z
+*.rar
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
