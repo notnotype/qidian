@@ -18,7 +18,7 @@ handler = logging.FileHandler(f"logs/"
                               f"{localtime().tm_min}-"
                               f"{localtime().tm_min}.log",
                               encoding="utf-8")
-formatter = logging.Formatter("[{levelname}][%(funcName)-7.7s][%(lineno)d行]-%(message)s")
+formatter = logging.Formatter("[%(levelname)-5.5s][%(funcName)-7.7s][%(lineno)3.3d行]-%(message)s")
 handler.setFormatter(formatter)
 logger.addHandler(handler)
 
@@ -31,7 +31,7 @@ logger.addHandler(console)
 
 TIMEOUT = 10
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chr"
-                          "ome/86.0.4240.111 Safari/537.36"}
+                         "ome/86.0.4240.111 Safari/537.36"}
 OUTFILE = "out.json"
 
 
@@ -44,10 +44,12 @@ def get(*args, **kwargs):
                 kwargs["timeout"] = TIMEOUT
             if "headers" not in kwargs:
                 kwargs["headers"] = get_headers()
-            logger.info("[获取网页] {}".format(args[0]))
+            logger.debug("[获取网页] {}".format(args[0]))
+            logger.debug(f"[使用] headers [{kwargs['headers']}]  -  timeout [{kwargs['timeout']}]")
             return _get(*args, **kwargs)
         except Exception as e:
-            logger.error("[获取网页失败] " + str(e))
+            logger.error("[获取网页失败]: ")
+            logger.exception(e)
             retry += 1
     return None
 
@@ -112,8 +114,8 @@ def get_detailed_info(novel_url) -> dict:
         logger.debug("使用老api")
         chapter_counts = translate(html.xpath("//span[@id='J-catalogCount']/text()")[0], mapping_table)
     except Exception as e:
-        logger.debug("老api出错 使用新api 原因:")
-        logger.exception(e, stacklevel=logging.DEBUG)
+        # 使用新api
+        logger.debug("老api出错 使用新api 原因:", exc_info=True)
         chapter_counts = translate(get(f"https://book.qidian.com/ajax/book/category?bookId={novel_id}",
                                        headers=get_headers()).json()["data"]["chapterTotalCnt"], mapping_table)
 
@@ -208,7 +210,6 @@ def _main(chan_id, sub_cata_id, headers, timeout, outfile):
     global HEADERS
     global OUTFILE
     TIMEOUT = timeout
-    HEADERS = headers
     OUTFILE = outfile
     for i in range(1, 3):
         _spider(chan_id, sub_cata_id, str(i))
@@ -232,6 +233,9 @@ def main():
 @click.option("--debug", "-d", help="启用调试", type=click.BOOL, default=False)
 def spider(chan_id, sub_cata_id, headers, timeout, outfile, fromfile, debug):
     """爬取大类chan_id, 小类sub_cata_id下的所有数据"""
+    global TIMEOUT
+    global HEADERS
+    global OUTFILE
     logger.debug("debug: " + str(debug))
     if debug:
         logger.setLevel(logging.DEBUG)
@@ -254,16 +258,22 @@ def spider(chan_id, sub_cata_id, headers, timeout, outfile, fromfile, debug):
     # 如果有头文件则加载头文件
     if headers:
         global HEADERS
-        HEADERS = headers.read()
+        HEADERS = loads(headers.read())
 
+    TIMEOUT = timeout
+    OUTFILE = outfile
     # 选择是否从文件爬取
     if not fromfile:
-        _main(chan_id, sub_cata_id, headers, timeout, outfile)
+        # 不从文件爬取
+        for i in range(1, 3):
+            _spider(chan_id, sub_cata_id, str(i))
         return
     else:
+        # 从文件爬取
         for line in fromfile:
-            a, b = line.split(" ")
-            _main(a.strip(), b.strip(), headers, timeout, outfile)
+            _chan_id, _sub_cata_id = line.split(" ")
+            for i in range(1, 3):
+                _spider(_chan_id.strip(), _sub_cata_id.strip(), str(i))
 
 
 main.add_command(spider)
