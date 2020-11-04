@@ -14,9 +14,10 @@ logger = logging.Logger("main")
 handler = logging.FileHandler(f"logs/"
                               f"{localtime().tm_year}-"
                               f"{localtime().tm_mon}-"
-                              f"{localtime().tm_mday}-"
-                              f"{localtime().tm_min}:"
-                              f"{localtime().tm_sec}.log",
+                              f"{localtime().tm_mday}--"
+                              f"{localtime().tm_hour}h-"
+                              f"{localtime().tm_min}m-"
+                              f"{localtime().tm_sec}s.log",
                               encoding="utf-8")
 formatter = logging.Formatter("[%(levelname)-5.5s][%(funcName)-7.7s][%(lineno)3.3d行]-%(message)s")
 handler.setFormatter(formatter)
@@ -32,7 +33,7 @@ logger.addHandler(console)
 TIMEOUT = 10
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chr"
                          "ome/86.0.4240.111 Safari/537.36"}
-OUTFILE = f"out/{localtime().tm_year}-{localtime().tm_mon}-{localtime().tm_mday}-{localtime().tm_min}-{localtime().tm_sec}.out.json"
+OUTFILE = f"out/{localtime().tm_year}-{localtime().tm_mon}-{localtime().tm_mday}--{localtime().tm_hour}h-{localtime().tm_min}m-{localtime().tm_sec}s.out.json"
 
 
 # 包装get方法
@@ -66,7 +67,7 @@ def get_api(chan_id, sub_cata_id, page):
 
 class OutFile:
     def __init__(self, filename: str):
-        self.f = open(filename, "w+", encoding="utf8")
+        self.f = open(filename, "a+", encoding="utf8")
 
     def save(self, item: dict):
         self.f.write(dumps(item).encode().decode("unicode_escape") + "\n")
@@ -131,6 +132,8 @@ def get_detailed_info(novel_url) -> dict:
 
 # noinspection PyBroadException
 def _spider(chan_id, sub_cata_id, page):
+    global outfile
+    outfile = OutFile(OUTFILE)
     # 信任get方法不会报错
     resp = get(get_api(chan_id, sub_cata_id, page), headers=get_headers())
 
@@ -210,7 +213,8 @@ def _main(chan_id, sub_cata_id, headers, timeout, outfile):
     global HEADERS
     global OUTFILE
     TIMEOUT = timeout
-    OUTFILE = outfile
+    if outfile:
+        OUTFILE = outfile
     for i in range(1, 3):
         _spider(chan_id, sub_cata_id, str(i))
 
@@ -229,16 +233,19 @@ def main():
 @click.option("--sub-cata-id", "-sci", help="小类id")
 @click.option("--headers", "-h", help="携带请求头文件", type=click.File())
 @click.option("--timeout", "-t", default=15.0, help="设置请求超时时间")
-@click.option("--outfile", "-o", default="out.json", help="设置输出文件")
+@click.option("--outfile", "-o", help="设置输出文件")
 @click.option("--fromfile", "-f", help="从文件加载数据继续爬取", type=click.File())
 @click.option("--debug", "-d", help="启用调试", type=click.BOOL, default=False)
 def spider(chan_id, sub_cata_id, headers, timeout, outfile, fromfile, debug):
     """爬取大类chan_id, 小类sub_cata_id下的所有数据   尝试输入`python main.py spider --help`来获取帮助"""
-    if not fromfile and not chan_id and sub_cata_id:
-        ctx_help = click.get_current_context().get_help()
-        click.echo("\缺失参数: 大类id, 小类id\n")
-        click.echo(ctx_help)
-        exit(0)
+    if not sub_cata_id or not chan_id:
+        if fromfile:
+            pass
+        else:
+            ctx_help = click.get_current_context().get_help()
+            click.echo("\缺失参数: 大类id, 小类id\n")
+            click.echo(ctx_help)
+            exit(0)
     global TIMEOUT
     global HEADERS
     global OUTFILE
@@ -267,7 +274,8 @@ def spider(chan_id, sub_cata_id, headers, timeout, outfile, fromfile, debug):
         HEADERS = loads(headers.read())
 
     TIMEOUT = timeout
-    OUTFILE = outfile
+    if outfile:
+        OUTFILE = outfile
     # 选择是否从文件爬取
     if not fromfile:
         # 不从文件爬取
@@ -284,6 +292,5 @@ def spider(chan_id, sub_cata_id, headers, timeout, outfile, fromfile, debug):
 
 main.add_command(spider)
 if __name__ == '__main__':
-    outfile = OutFile(OUTFILE)
     main()
 
