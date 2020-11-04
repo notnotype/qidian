@@ -243,7 +243,8 @@ def spider(chan_id, sub_cata_id, headers, timeout, outfile, fromfile, debug):
             pass
         else:
             ctx_help = click.get_current_context().get_help()
-            click.echo("\缺失参数: 大类id, 小类id\n")
+            click.echo("缺失参数: 大类id, 小类id\n")
+            click.echo("尝试输入`python spider -ci 1 -sci 1`来运行爬虫\n")
             click.echo(ctx_help)
             exit(0)
     global TIMEOUT
