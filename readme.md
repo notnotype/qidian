@@ -8,6 +8,8 @@
 
 进入项目文件夹输入一下命令
 ```
+git clone https://github.com/notnotype/qidian.git
+cd qidian
 pip install -r requirements.txt
 python main.py spider --chan-id 1 --sub-cata-id 1 
 ```
@@ -78,7 +80,7 @@ Python 3.8.2
 
 我们只要主分类,和次分类就可以用了
 ```
-python main.py spider -ci 21 -csi 73 -o 21-73.json
+python main.py spider -ci 21 -sci 73 -o 21-73.json
 ```
 
 ### 高阶用法 `从文件读取要爬的位置`
