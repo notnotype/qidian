@@ -1,4 +1,4 @@
 click~=7.1.2
 requests~=2.24.0
-lxml~=4.5.2
+lxml>=4.6.2
 fonttools~=4.16.1
